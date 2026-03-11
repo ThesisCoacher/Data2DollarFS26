@@ -1,0 +1,3569 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2379490534c547cbc11b97a044eed84b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2379490534c547cbc11b97a044eed84b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2379490534c547cbc11b97a044eed84b = L.map(
+                "map_2379490534c547cbc11b97a044eed84b",
+                {
+                    center: [46.8182, 8.2275],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_91c2671c337ca3dffb9c9d93c79f7a27 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_91c2671c337ca3dffb9c9d93c79f7a27.addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+            var marker_9a7545b614498f03b0f186b1b97bdf5c = L.marker(
+                [47.0077288, 9.5309225],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_ec6fc6cda0d8b712af096c42bb1311bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6e6f2e24c525430e915186944a829d8 = $(`<div id="html_b6e6f2e24c525430e915186944a829d8" style="width: 100.0%; height: 100.0%;">Weingut Schnell AG</div>`)[0];
+                popup_ec6fc6cda0d8b712af096c42bb1311bf.setContent(html_b6e6f2e24c525430e915186944a829d8);
+            
+        
+
+        marker_9a7545b614498f03b0f186b1b97bdf5c.bindPopup(popup_ec6fc6cda0d8b712af096c42bb1311bf)
+        ;
+
+        
+    
+    
+            marker_9a7545b614498f03b0f186b1b97bdf5c.bindTooltip(
+                `<div>
+                     Weingut Schnell AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d34a6a44509462a3b08342a975daea58 = L.marker(
+                [46.8536951, 7.7435504],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_99dd032e3e14cd78c38febee70841ecb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e86bf5e80a3f8a759402d0312f8f0438 = $(`<div id="html_e86bf5e80a3f8a759402d0312f8f0438" style="width: 100.0%; height: 100.0%;">wielandleben.ch</div>`)[0];
+                popup_99dd032e3e14cd78c38febee70841ecb.setContent(html_e86bf5e80a3f8a759402d0312f8f0438);
+            
+        
+
+        marker_d34a6a44509462a3b08342a975daea58.bindPopup(popup_99dd032e3e14cd78c38febee70841ecb)
+        ;
+
+        
+    
+    
+            marker_d34a6a44509462a3b08342a975daea58.bindTooltip(
+                `<div>
+                     wielandleben.ch
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_42a994a6d4ac5c4cd0d647ccb6b9b291 = L.marker(
+                [47.5581077, 7.5878261],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_ed8056d50ad466c8488a43b3efbf9879 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_277699ddb76ce67140f9ea4c67adb58d = $(`<div id="html_277699ddb76ce67140f9ea4c67adb58d" style="width: 100.0%; height: 100.0%;">biomondo</div>`)[0];
+                popup_ed8056d50ad466c8488a43b3efbf9879.setContent(html_277699ddb76ce67140f9ea4c67adb58d);
+            
+        
+
+        marker_42a994a6d4ac5c4cd0d647ccb6b9b291.bindPopup(popup_ed8056d50ad466c8488a43b3efbf9879)
+        ;
+
+        
+    
+    
+            marker_42a994a6d4ac5c4cd0d647ccb6b9b291.bindTooltip(
+                `<div>
+                     biomondo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c78317c95c262e10b2e4f51c65829160 = L.marker(
+                [47.3460005, 8.1593554],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_923860c03190d8160718afda5d49af23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c15037453fca5b3618b297a1cf3608be = $(`<div id="html_c15037453fca5b3618b297a1cf3608be" style="width: 100.0%; height: 100.0%;">biopartnerLaden</div>`)[0];
+                popup_923860c03190d8160718afda5d49af23.setContent(html_c15037453fca5b3618b297a1cf3608be);
+            
+        
+
+        marker_c78317c95c262e10b2e4f51c65829160.bindPopup(popup_923860c03190d8160718afda5d49af23)
+        ;
+
+        
+    
+    
+            marker_c78317c95c262e10b2e4f51c65829160.bindTooltip(
+                `<div>
+                     biopartnerLaden
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3aac4f2593eb9d211b431055a240d78c = L.marker(
+                [47.3512065, 8.7179221],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_635b9f435d1544e3f0c3ef4ec3be16c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d8bac352a623e3c12fd8037affabbc1 = $(`<div id="html_4d8bac352a623e3c12fd8037affabbc1" style="width: 100.0%; height: 100.0%;">Fausta Borsani GmbH</div>`)[0];
+                popup_635b9f435d1544e3f0c3ef4ec3be16c6.setContent(html_4d8bac352a623e3c12fd8037affabbc1);
+            
+        
+
+        marker_3aac4f2593eb9d211b431055a240d78c.bindPopup(popup_635b9f435d1544e3f0c3ef4ec3be16c6)
+        ;
+
+        
+    
+    
+            marker_3aac4f2593eb9d211b431055a240d78c.bindTooltip(
+                `<div>
+                     Fausta Borsani GmbH
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_53eea8fb4f8556870a267c308eb684bf = L.marker(
+                [46.7409445, 7.1770092],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_3f2a3094565d23510a3ed6fb90dffbe2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ab0a5bb60738a5ab09d21c9a6cb9cca = $(`<div id="html_6ab0a5bb60738a5ab09d21c9a6cb9cca" style="width: 100.0%; height: 100.0%;">FREETHEBEES</div>`)[0];
+                popup_3f2a3094565d23510a3ed6fb90dffbe2.setContent(html_6ab0a5bb60738a5ab09d21c9a6cb9cca);
+            
+        
+
+        marker_53eea8fb4f8556870a267c308eb684bf.bindPopup(popup_3f2a3094565d23510a3ed6fb90dffbe2)
+        ;
+
+        
+    
+    
+            marker_53eea8fb4f8556870a267c308eb684bf.bindTooltip(
+                `<div>
+                     FREETHEBEES
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_210568f32fc526a848ccb7470d316f3a = L.marker(
+                [46.9582779, 7.4911242],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_cc2bdbe2853fdf0faab546a30db0791b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aff9778af4bea45a5dc4e5e4b3afe6fb = $(`<div id="html_aff9778af4bea45a5dc4e5e4b3afe6fb" style="width: 100.0%; height: 100.0%;">Ingredienza die Teigwaren-Manufaktur GmbH</div>`)[0];
+                popup_cc2bdbe2853fdf0faab546a30db0791b.setContent(html_aff9778af4bea45a5dc4e5e4b3afe6fb);
+            
+        
+
+        marker_210568f32fc526a848ccb7470d316f3a.bindPopup(popup_cc2bdbe2853fdf0faab546a30db0791b)
+        ;
+
+        
+    
+    
+            marker_210568f32fc526a848ccb7470d316f3a.bindTooltip(
+                `<div>
+                     Ingredienza die Teigwaren-Manufaktur GmbH
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ee3803feb5f2c9d7c12655bf2dd82a8b = L.marker(
+                [47.3528355, 8.3701013],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_4b9d2f66fd29fbb82863504b141176c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9ffc58e12aec9f20012d5cc2931c586 = $(`<div id="html_a9ffc58e12aec9f20012d5cc2931c586" style="width: 100.0%; height: 100.0%;">UNI SAPON Schweiz (EASY CLEAN)</div>`)[0];
+                popup_4b9d2f66fd29fbb82863504b141176c4.setContent(html_a9ffc58e12aec9f20012d5cc2931c586);
+            
+        
+
+        marker_ee3803feb5f2c9d7c12655bf2dd82a8b.bindPopup(popup_4b9d2f66fd29fbb82863504b141176c4)
+        ;
+
+        
+    
+    
+            marker_ee3803feb5f2c9d7c12655bf2dd82a8b.bindTooltip(
+                `<div>
+                     UNI SAPON Schweiz (EASY CLEAN)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2718c4a35b0171184747a08abc419bde = L.marker(
+                [47.5581077, 7.5878261],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_9ea791abde9676bad6f03ebbcd72a5c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7a3baf3c59a81add2cd7276c6297b25 = $(`<div id="html_a7a3baf3c59a81add2cd7276c6297b25" style="width: 100.0%; height: 100.0%;">BASEL VEGAN MESSE</div>`)[0];
+                popup_9ea791abde9676bad6f03ebbcd72a5c4.setContent(html_a7a3baf3c59a81add2cd7276c6297b25);
+            
+        
+
+        marker_2718c4a35b0171184747a08abc419bde.bindPopup(popup_9ea791abde9676bad6f03ebbcd72a5c4)
+        ;
+
+        
+    
+    
+            marker_2718c4a35b0171184747a08abc419bde.bindTooltip(
+                `<div>
+                     BASEL VEGAN MESSE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5cf1e90b2e0bfedf07d577918374435b = L.marker(
+                [47.3744489, 8.5410422],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_5d39d077e48a1739a2cee837bd37d013 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efdc332240f52342f45c6dbb14ca14bc = $(`<div id="html_efdc332240f52342f45c6dbb14ca14bc" style="width: 100.0%; height: 100.0%;">Witiker</div>`)[0];
+                popup_5d39d077e48a1739a2cee837bd37d013.setContent(html_efdc332240f52342f45c6dbb14ca14bc);
+            
+        
+
+        marker_5cf1e90b2e0bfedf07d577918374435b.bindPopup(popup_5d39d077e48a1739a2cee837bd37d013)
+        ;
+
+        
+    
+    
+            marker_5cf1e90b2e0bfedf07d577918374435b.bindTooltip(
+                `<div>
+                     Witiker
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8b227d9b7f1e3e0dc3ef02d71a67c756 = L.marker(
+                [47.6439248, 8.6017575],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_bf4527eadcd7ba55d1657282b9a4109c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7fa8d3c00e30f9915e82a6528ebd927 = $(`<div id="html_d7fa8d3c00e30f9915e82a6528ebd927" style="width: 100.0%; height: 100.0%;">Pneumatit AG</div>`)[0];
+                popup_bf4527eadcd7ba55d1657282b9a4109c.setContent(html_d7fa8d3c00e30f9915e82a6528ebd927);
+            
+        
+
+        marker_8b227d9b7f1e3e0dc3ef02d71a67c756.bindPopup(popup_bf4527eadcd7ba55d1657282b9a4109c)
+        ;
+
+        
+    
+    
+            marker_8b227d9b7f1e3e0dc3ef02d71a67c756.bindTooltip(
+                `<div>
+                     Pneumatit AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cc19d9fabb9ef5c98daa3824d2b8a34d = L.marker(
+                [47.5504462, 9.2254631],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_d8ab01133f7f55ddbcdaa8af8bb74b9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13fc769cc2c8dabafcfeacc5db184b22 = $(`<div id="html_13fc769cc2c8dabafcfeacc5db184b22" style="width: 100.0%; height: 100.0%;">Biogärtnerei Neubauer GmbH</div>`)[0];
+                popup_d8ab01133f7f55ddbcdaa8af8bb74b9e.setContent(html_13fc769cc2c8dabafcfeacc5db184b22);
+            
+        
+
+        marker_cc19d9fabb9ef5c98daa3824d2b8a34d.bindPopup(popup_d8ab01133f7f55ddbcdaa8af8bb74b9e)
+        ;
+
+        
+    
+    
+            marker_cc19d9fabb9ef5c98daa3824d2b8a34d.bindTooltip(
+                `<div>
+                     Biogärtnerei Neubauer GmbH
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e1f87690f84b100218895923568067a6 = L.marker(
+                [47.1823761, 8.4611036],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_e475ae5206dede4e462eef6067957239 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a55c2a427b53a923781e7df4515db68d = $(`<div id="html_a55c2a427b53a923781e7df4515db68d" style="width: 100.0%; height: 100.0%;">iis-chue</div>`)[0];
+                popup_e475ae5206dede4e462eef6067957239.setContent(html_a55c2a427b53a923781e7df4515db68d);
+            
+        
+
+        marker_e1f87690f84b100218895923568067a6.bindPopup(popup_e475ae5206dede4e462eef6067957239)
+        ;
+
+        
+    
+    
+            marker_e1f87690f84b100218895923568067a6.bindTooltip(
+                `<div>
+                     iis-chue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c9dbed6c2fb655ad2711898aed75aa5d = L.marker(
+                [46.774144, 7.569395],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_dad0728091913bb59408dec04ab2b460 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6889faa7c5785254c40931dd7b04f45 = $(`<div id="html_f6889faa7c5785254c40931dd7b04f45" style="width: 100.0%; height: 100.0%;">Naturkostbar</div>`)[0];
+                popup_dad0728091913bb59408dec04ab2b460.setContent(html_f6889faa7c5785254c40931dd7b04f45);
+            
+        
+
+        marker_c9dbed6c2fb655ad2711898aed75aa5d.bindPopup(popup_dad0728091913bb59408dec04ab2b460)
+        ;
+
+        
+    
+    
+            marker_c9dbed6c2fb655ad2711898aed75aa5d.bindTooltip(
+                `<div>
+                     Naturkostbar
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6884eb2bd134ec2c50c4e36611420d08 = L.marker(
+                [47.1725301, 8.1067781],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_a60a551caf4ffde2e51e2ea7a88252d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cf869341c391ebcda7332ccee0134d4 = $(`<div id="html_4cf869341c391ebcda7332ccee0134d4" style="width: 100.0%; height: 100.0%;">Kochtopf</div>`)[0];
+                popup_a60a551caf4ffde2e51e2ea7a88252d3.setContent(html_4cf869341c391ebcda7332ccee0134d4);
+            
+        
+
+        marker_6884eb2bd134ec2c50c4e36611420d08.bindPopup(popup_a60a551caf4ffde2e51e2ea7a88252d3)
+        ;
+
+        
+    
+    
+            marker_6884eb2bd134ec2c50c4e36611420d08.bindTooltip(
+                `<div>
+                     Kochtopf
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b732a424241762ee94d3b64ec3171b0f = L.marker(
+                [47.3512065, 8.7179221],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_778715fafd01e579288a4d62975687c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c7a1fc13a244791fba6a15fea432c84 = $(`<div id="html_9c7a1fc13a244791fba6a15fea432c84" style="width: 100.0%; height: 100.0%;">Farfalla Essentials AG</div>`)[0];
+                popup_778715fafd01e579288a4d62975687c8.setContent(html_9c7a1fc13a244791fba6a15fea432c84);
+            
+        
+
+        marker_b732a424241762ee94d3b64ec3171b0f.bindPopup(popup_778715fafd01e579288a4d62975687c8)
+        ;
+
+        
+    
+    
+            marker_b732a424241762ee94d3b64ec3171b0f.bindTooltip(
+                `<div>
+                     Farfalla Essentials AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ab0e3fbdbaf96abbaeb671a49e6dd020 = L.marker(
+                [47.3744489, 8.5410422],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_3e645a9b0b29ae5c7aa7532d37ed8bc5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43b72eb7edf20d460f237ec860a941ca = $(`<div id="html_43b72eb7edf20d460f237ec860a941ca" style="width: 100.0%; height: 100.0%;">diktum.ch</div>`)[0];
+                popup_3e645a9b0b29ae5c7aa7532d37ed8bc5.setContent(html_43b72eb7edf20d460f237ec860a941ca);
+            
+        
+
+        marker_ab0e3fbdbaf96abbaeb671a49e6dd020.bindPopup(popup_3e645a9b0b29ae5c7aa7532d37ed8bc5)
+        ;
+
+        
+    
+    
+            marker_ab0e3fbdbaf96abbaeb671a49e6dd020.bindTooltip(
+                `<div>
+                     diktum.ch
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_79cf429d8bd2700a0b47dc56b2035428 = L.marker(
+                [47.5581077, 7.5878261],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_cdb808f6f5eb89ae4a43b6f9466581c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a18b559b439e79ce5719a8cd6ba4d279 = $(`<div id="html_a18b559b439e79ce5719a8cd6ba4d279" style="width: 100.0%; height: 100.0%;">Bio-Stiftung Schweiz</div>`)[0];
+                popup_cdb808f6f5eb89ae4a43b6f9466581c5.setContent(html_a18b559b439e79ce5719a8cd6ba4d279);
+            
+        
+
+        marker_79cf429d8bd2700a0b47dc56b2035428.bindPopup(popup_cdb808f6f5eb89ae4a43b6f9466581c5)
+        ;
+
+        
+    
+    
+            marker_79cf429d8bd2700a0b47dc56b2035428.bindTooltip(
+                `<div>
+                     Bio-Stiftung Schweiz
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3df879d2404288787aafbad35f9f5d0b = L.marker(
+                [47.4019522, 8.1757198],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_b65062c254ed40e62275f79851e55e66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b39daeef193a0a320ac8c8f7f7e38255 = $(`<div id="html_b39daeef193a0a320ac8c8f7f7e38255" style="width: 100.0%; height: 100.0%;">Mahler & Co. AG</div>`)[0];
+                popup_b65062c254ed40e62275f79851e55e66.setContent(html_b39daeef193a0a320ac8c8f7f7e38255);
+            
+        
+
+        marker_3df879d2404288787aafbad35f9f5d0b.bindPopup(popup_b65062c254ed40e62275f79851e55e66)
+        ;
+
+        
+    
+    
+            marker_3df879d2404288787aafbad35f9f5d0b.bindTooltip(
+                `<div>
+                     Mahler & Co. AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_089f04b0ead8df99e1765c23750da26e = L.marker(
+                [47.3496571, 7.903787],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_75fb7e1be69e78f839afea4fd0092c25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06ee0f8f2f01b4df06dfbbd68c4b3954 = $(`<div id="html_06ee0f8f2f01b4df06dfbbd68c4b3954" style="width: 100.0%; height: 100.0%;">Alternative Bank Schweiz</div>`)[0];
+                popup_75fb7e1be69e78f839afea4fd0092c25.setContent(html_06ee0f8f2f01b4df06dfbbd68c4b3954);
+            
+        
+
+        marker_089f04b0ead8df99e1765c23750da26e.bindPopup(popup_75fb7e1be69e78f839afea4fd0092c25)
+        ;
+
+        
+    
+    
+            marker_089f04b0ead8df99e1765c23750da26e.bindTooltip(
+                `<div>
+                     Alternative Bank Schweiz
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d29b62a2843eff77fc45cd1fa2f68870 = L.marker(
+                [47.5581077, 7.5878261],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_87d70d1e9c1e6ed4520c776dd0f965c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3c72d144fc623d45e75ebd12ba8c31a = $(`<div id="html_d3c72d144fc623d45e75ebd12ba8c31a" style="width: 100.0%; height: 100.0%;">Drogerie zum Chrüterhüsli AG</div>`)[0];
+                popup_87d70d1e9c1e6ed4520c776dd0f965c1.setContent(html_d3c72d144fc623d45e75ebd12ba8c31a);
+            
+        
+
+        marker_d29b62a2843eff77fc45cd1fa2f68870.bindPopup(popup_87d70d1e9c1e6ed4520c776dd0f965c1)
+        ;
+
+        
+    
+    
+            marker_d29b62a2843eff77fc45cd1fa2f68870.bindTooltip(
+                `<div>
+                     Drogerie zum Chrüterhüsli AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b140440614759c734a6308b0f47d3f5f = L.marker(
+                [46.9222385, 7.4130582],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_f1c74838a9a358956bce528f14d50a8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5de2a555a6f89301a6e3d97190417bd7 = $(`<div id="html_5de2a555a6f89301a6e3d97190417bd7" style="width: 100.0%; height: 100.0%;">KöniGnuss</div>`)[0];
+                popup_f1c74838a9a358956bce528f14d50a8a.setContent(html_5de2a555a6f89301a6e3d97190417bd7);
+            
+        
+
+        marker_b140440614759c734a6308b0f47d3f5f.bindPopup(popup_f1c74838a9a358956bce528f14d50a8a)
+        ;
+
+        
+    
+    
+            marker_b140440614759c734a6308b0f47d3f5f.bindTooltip(
+                `<div>
+                     KöniGnuss
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_812eac2b07a165c486f410b3b61ea46d = L.marker(
+                [47.1486137, 8.5539378],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_07ba9285d95d31c0a9512327bdbbc70f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_769cab8f3ac62666ed94d930de672290 = $(`<div id="html_769cab8f3ac62666ed94d930de672290" style="width: 100.0%; height: 100.0%;">Ducos GmbH</div>`)[0];
+                popup_07ba9285d95d31c0a9512327bdbbc70f.setContent(html_769cab8f3ac62666ed94d930de672290);
+            
+        
+
+        marker_812eac2b07a165c486f410b3b61ea46d.bindPopup(popup_07ba9285d95d31c0a9512327bdbbc70f)
+        ;
+
+        
+    
+    
+            marker_812eac2b07a165c486f410b3b61ea46d.bindTooltip(
+                `<div>
+                     Ducos GmbH
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fda5a1d2f9676fdcd928f8c6bd965b99 = L.marker(
+                [47.4155906, 9.249359],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_d900e68ff512b2c09bece470d058f2aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77e75242b3b510652868336d2cbb1914 = $(`<div id="html_77e75242b3b510652868336d2cbb1914" style="width: 100.0%; height: 100.0%;">SPAR Handels AG</div>`)[0];
+                popup_d900e68ff512b2c09bece470d058f2aa.setContent(html_77e75242b3b510652868336d2cbb1914);
+            
+        
+
+        marker_fda5a1d2f9676fdcd928f8c6bd965b99.bindPopup(popup_d900e68ff512b2c09bece470d058f2aa)
+        ;
+
+        
+    
+    
+            marker_fda5a1d2f9676fdcd928f8c6bd965b99.bindTooltip(
+                `<div>
+                     SPAR Handels AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_493a7085557c192a701fa472fd916e6d = L.marker(
+                [47.0707581, 8.197178],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_97fd0b1200838e09de39a30a7c80d6bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eac5f35b7afe8cd5d890a1a088ebf143 = $(`<div id="html_eac5f35b7afe8cd5d890a1a088ebf143" style="width: 100.0%; height: 100.0%;">Biohof Oberzinggen</div>`)[0];
+                popup_97fd0b1200838e09de39a30a7c80d6bb.setContent(html_eac5f35b7afe8cd5d890a1a088ebf143);
+            
+        
+
+        marker_493a7085557c192a701fa472fd916e6d.bindPopup(popup_97fd0b1200838e09de39a30a7c80d6bb)
+        ;
+
+        
+    
+    
+            marker_493a7085557c192a701fa472fd916e6d.bindTooltip(
+                `<div>
+                     Biohof Oberzinggen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_78407d27c3c92d530679f075f8228082 = L.marker(
+                [46.5874205, 7.6444369],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_ff991871338ed694d33789c626639e24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54a2965527b7bc5f4df4088e72acf2c0 = $(`<div id="html_54a2965527b7bc5f4df4088e72acf2c0" style="width: 100.0%; height: 100.0%;">Futur Naturprodukte GmbH</div>`)[0];
+                popup_ff991871338ed694d33789c626639e24.setContent(html_54a2965527b7bc5f4df4088e72acf2c0);
+            
+        
+
+        marker_78407d27c3c92d530679f075f8228082.bindPopup(popup_ff991871338ed694d33789c626639e24)
+        ;
+
+        
+    
+    
+            marker_78407d27c3c92d530679f075f8228082.bindTooltip(
+                `<div>
+                     Futur Naturprodukte GmbH
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_540968a5d753cb8452fa55c602f712df = L.marker(
+                [46.9484742, 7.4521749],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_515eeaa6a61a30fcea41efc2764e590a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab4a5c37caa5c8250dc09ad740540ccd = $(`<div id="html_ab4a5c37caa5c8250dc09ad740540ccd" style="width: 100.0%; height: 100.0%;">CoOpera Sammelstiftung PUK</div>`)[0];
+                popup_515eeaa6a61a30fcea41efc2764e590a.setContent(html_ab4a5c37caa5c8250dc09ad740540ccd);
+            
+        
+
+        marker_540968a5d753cb8452fa55c602f712df.bindPopup(popup_515eeaa6a61a30fcea41efc2764e590a)
+        ;
+
+        
+    
+    
+            marker_540968a5d753cb8452fa55c602f712df.bindTooltip(
+                `<div>
+                     CoOpera Sammelstiftung PUK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3a709a71d9ca312274f2df4efdc6cd82 = L.marker(
+                [47.1506183, 8.0013407],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_ea861f8961f8ecb92c5f7b6b07c9d6a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15210b2e315fe32c3983fd7f61ab3cba = $(`<div id="html_15210b2e315fe32c3983fd7f61ab3cba" style="width: 100.0%; height: 100.0%;">Agrovision Burgrain AG</div>`)[0];
+                popup_ea861f8961f8ecb92c5f7b6b07c9d6a3.setContent(html_15210b2e315fe32c3983fd7f61ab3cba);
+            
+        
+
+        marker_3a709a71d9ca312274f2df4efdc6cd82.bindPopup(popup_ea861f8961f8ecb92c5f7b6b07c9d6a3)
+        ;
+
+        
+    
+    
+            marker_3a709a71d9ca312274f2df4efdc6cd82.bindTooltip(
+                `<div>
+                     Agrovision Burgrain AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_671d93bcfbf5db48db1fa1dee95cda96 = L.marker(
+                [47.0505452, 8.3054682],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_c9a0ed808e9687a7b559125ed2dd6291 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_961fa587444f07400790116c6998a5f7 = $(`<div id="html_961fa587444f07400790116c6998a5f7" style="width: 100.0%; height: 100.0%;">terravera ag</div>`)[0];
+                popup_c9a0ed808e9687a7b559125ed2dd6291.setContent(html_961fa587444f07400790116c6998a5f7);
+            
+        
+
+        marker_671d93bcfbf5db48db1fa1dee95cda96.bindPopup(popup_c9a0ed808e9687a7b559125ed2dd6291)
+        ;
+
+        
+    
+    
+            marker_671d93bcfbf5db48db1fa1dee95cda96.bindTooltip(
+                `<div>
+                     terravera ag
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_49c209f218d2ac998450967f96b62aad = L.marker(
+                [46.9474375, 7.6204553],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_051f6440755673c88c0124d0a685f27a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_948bf1637a378158fd4cd664fd4de1e5 = $(`<div id="html_948bf1637a378158fd4cd664fd4de1e5" style="width: 100.0%; height: 100.0%;">Hotel Restaurant Rüttihubelbad</div>`)[0];
+                popup_051f6440755673c88c0124d0a685f27a.setContent(html_948bf1637a378158fd4cd664fd4de1e5);
+            
+        
+
+        marker_49c209f218d2ac998450967f96b62aad.bindPopup(popup_051f6440755673c88c0124d0a685f27a)
+        ;
+
+        
+    
+    
+            marker_49c209f218d2ac998450967f96b62aad.bindTooltip(
+                `<div>
+                     Hotel Restaurant Rüttihubelbad
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8ba2cde1031d66b892fa24fc8f823145 = L.marker(
+                [46.0246543, 8.936741],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_204aa7a70c824a0d951953e0b4ca7a59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efdc78cad2fcc4abf34061b1e58e80b4 = $(`<div id="html_efdc78cad2fcc4abf34061b1e58e80b4" style="width: 100.0%; height: 100.0%;">Manor SA Vezia</div>`)[0];
+                popup_204aa7a70c824a0d951953e0b4ca7a59.setContent(html_efdc78cad2fcc4abf34061b1e58e80b4);
+            
+        
+
+        marker_8ba2cde1031d66b892fa24fc8f823145.bindPopup(popup_204aa7a70c824a0d951953e0b4ca7a59)
+        ;
+
+        
+    
+    
+            marker_8ba2cde1031d66b892fa24fc8f823145.bindTooltip(
+                `<div>
+                     Manor SA Vezia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e9e6cc7c37d6947bc36b105fac4779ef = L.marker(
+                [47.3744489, 8.5410422],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_5c4d856babdf8faa5e17721636c684c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3b53ae17b9a24ba3426d593aaf1a49c = $(`<div id="html_c3b53ae17b9a24ba3426d593aaf1a49c" style="width: 100.0%; height: 100.0%;">Chornlade</div>`)[0];
+                popup_5c4d856babdf8faa5e17721636c684c2.setContent(html_c3b53ae17b9a24ba3426d593aaf1a49c);
+            
+        
+
+        marker_e9e6cc7c37d6947bc36b105fac4779ef.bindPopup(popup_5c4d856babdf8faa5e17721636c684c2)
+        ;
+
+        
+    
+    
+            marker_e9e6cc7c37d6947bc36b105fac4779ef.bindTooltip(
+                `<div>
+                     Chornlade
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_98bcd1efca96190acb0506c2f1f08519 = L.marker(
+                [47.3615882, 7.354445],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_d92a964594019922e0aa1286d2381e6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2fc3504cda65296184718c805708a6b = $(`<div id="html_a2fc3504cda65296184718c805708a6b" style="width: 100.0%; height: 100.0%;">Manor SA Delémont</div>`)[0];
+                popup_d92a964594019922e0aa1286d2381e6d.setContent(html_a2fc3504cda65296184718c805708a6b);
+            
+        
+
+        marker_98bcd1efca96190acb0506c2f1f08519.bindPopup(popup_d92a964594019922e0aa1286d2381e6d)
+        ;
+
+        
+    
+    
+            marker_98bcd1efca96190acb0506c2f1f08519.bindTooltip(
+                `<div>
+                     Manor SA Delémont
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6794a4e8ab236429af1f24093bc24424 = L.marker(
+                [47.0114661, 9.079913],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_1b8477126eb660a0aea04e6975f78c5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_732a05e5c6a24178b757a18f00140c5e = $(`<div id="html_732a05e5c6a24178b757a18f00140c5e" style="width: 100.0%; height: 100.0%;">Grüninger AG</div>`)[0];
+                popup_1b8477126eb660a0aea04e6975f78c5c.setContent(html_732a05e5c6a24178b757a18f00140c5e);
+            
+        
+
+        marker_6794a4e8ab236429af1f24093bc24424.bindPopup(popup_1b8477126eb660a0aea04e6975f78c5c)
+        ;
+
+        
+    
+    
+            marker_6794a4e8ab236429af1f24093bc24424.bindTooltip(
+                `<div>
+                     Grüninger AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_83ada18a49038c2ba2f349ead2b58ad7 = L.marker(
+                [46.7785711, 6.6409158],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_7397d0a58a53b614fdef2d7d43620665 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_040f0ddaccde597884437e71738fb184 = $(`<div id="html_040f0ddaccde597884437e71738fb184" style="width: 100.0%; height: 100.0%;">Manor SA Yverdon</div>`)[0];
+                popup_7397d0a58a53b614fdef2d7d43620665.setContent(html_040f0ddaccde597884437e71738fb184);
+            
+        
+
+        marker_83ada18a49038c2ba2f349ead2b58ad7.bindPopup(popup_7397d0a58a53b614fdef2d7d43620665)
+        ;
+
+        
+    
+    
+            marker_83ada18a49038c2ba2f349ead2b58ad7.bindTooltip(
+                `<div>
+                     Manor SA Yverdon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8eb8a436343f245d4da46cc0c0d40381 = L.marker(
+                [46.3991936, 7.7717164],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_93766bdc878fa6d7fb789006eec717cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d489136eca2d7b256256c41a106cc489 = $(`<div id="html_d489136eca2d7b256256c41a106cc489" style="width: 100.0%; height: 100.0%;">Hotel Restaurant Bietschhorn</div>`)[0];
+                popup_93766bdc878fa6d7fb789006eec717cb.setContent(html_d489136eca2d7b256256c41a106cc489);
+            
+        
+
+        marker_8eb8a436343f245d4da46cc0c0d40381.bindPopup(popup_93766bdc878fa6d7fb789006eec717cb)
+        ;
+
+        
+    
+    
+            marker_8eb8a436343f245d4da46cc0c0d40381.bindTooltip(
+                `<div>
+                     Hotel Restaurant Bietschhorn
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7d6cab83c4d5e76d3b06e4853bd70d39 = L.marker(
+                [47.1250287, 7.241157],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_77ae4457cbbb9caecef108f8da94d05d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_414c79b7f08b90f9de5bef686be283e8 = $(`<div id="html_414c79b7f08b90f9de5bef686be283e8" style="width: 100.0%; height: 100.0%;">Naturdrogerie</div>`)[0];
+                popup_77ae4457cbbb9caecef108f8da94d05d.setContent(html_414c79b7f08b90f9de5bef686be283e8);
+            
+        
+
+        marker_7d6cab83c4d5e76d3b06e4853bd70d39.bindPopup(popup_77ae4457cbbb9caecef108f8da94d05d)
+        ;
+
+        
+    
+    
+            marker_7d6cab83c4d5e76d3b06e4853bd70d39.bindTooltip(
+                `<div>
+                     Naturdrogerie
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a49386af8e4ee91cd760f7166bc2bd2a = L.marker(
+                [47.288491, 7.9458259],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_6e6d41a3c08258c4e11bb983601c2955 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16d1fae24a2a3ca60ddd390dca54c411 = $(`<div id="html_16d1fae24a2a3ca60ddd390dca54c411" style="width: 100.0%; height: 100.0%;">paperlapapp</div>`)[0];
+                popup_6e6d41a3c08258c4e11bb983601c2955.setContent(html_16d1fae24a2a3ca60ddd390dca54c411);
+            
+        
+
+        marker_a49386af8e4ee91cd760f7166bc2bd2a.bindPopup(popup_6e6d41a3c08258c4e11bb983601c2955)
+        ;
+
+        
+    
+    
+            marker_a49386af8e4ee91cd760f7166bc2bd2a.bindTooltip(
+                `<div>
+                     paperlapapp
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_58304bd98520e6008f5144588a3e6f0b = L.marker(
+                [47.4469308, 8.3225886],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_c7c46496a65ebfc19b9f3c121df058b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7108aeb2071e86087fcc69899510ff4b = $(`<div id="html_7108aeb2071e86087fcc69899510ff4b" style="width: 100.0%; height: 100.0%;">Varistor AG</div>`)[0];
+                popup_c7c46496a65ebfc19b9f3c121df058b1.setContent(html_7108aeb2071e86087fcc69899510ff4b);
+            
+        
+
+        marker_58304bd98520e6008f5144588a3e6f0b.bindPopup(popup_c7c46496a65ebfc19b9f3c121df058b1)
+        ;
+
+        
+    
+    
+            marker_58304bd98520e6008f5144588a3e6f0b.bindTooltip(
+                `<div>
+                     Varistor AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9f046faba6759e003646e3ca762ccc7b = L.marker(
+                [46.9291293, 7.4498328],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_10e3d68527941ce379de3e3e9253a073 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a75b364858ba9e1dfae4a2d6e12e3c3a = $(`<div id="html_a75b364858ba9e1dfae4a2d6e12e3c3a" style="width: 100.0%; height: 100.0%;">swipala GmbH</div>`)[0];
+                popup_10e3d68527941ce379de3e3e9253a073.setContent(html_a75b364858ba9e1dfae4a2d6e12e3c3a);
+            
+        
+
+        marker_9f046faba6759e003646e3ca762ccc7b.bindPopup(popup_10e3d68527941ce379de3e3e9253a073)
+        ;
+
+        
+    
+    
+            marker_9f046faba6759e003646e3ca762ccc7b.bindTooltip(
+                `<div>
+                     swipala GmbH
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a601762428745256b4d86834f0abddd5 = L.marker(
+                [47.5581077, 7.5878261],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_3f541a76857d776c05854df3f61d20e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce2318c3389757dbb9b79f46acd08c2e = $(`<div id="html_ce2318c3389757dbb9b79f46acd08c2e" style="width: 100.0%; height: 100.0%;">Forum für zeitgemässe Ernährung</div>`)[0];
+                popup_3f541a76857d776c05854df3f61d20e5.setContent(html_ce2318c3389757dbb9b79f46acd08c2e);
+            
+        
+
+        marker_a601762428745256b4d86834f0abddd5.bindPopup(popup_3f541a76857d776c05854df3f61d20e5)
+        ;
+
+        
+    
+    
+            marker_a601762428745256b4d86834f0abddd5.bindTooltip(
+                `<div>
+                     Forum für zeitgemässe Ernährung
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4ce63341cd8ea473c0c1e42f80fa4f8b = L.marker(
+                [47.1402077, 7.2439029],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_9eda6f7aeefac8838e9689bd2b7a13c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62b16203e6e5bf9d0b6e57da1d57ed16 = $(`<div id="html_62b16203e6e5bf9d0b6e57da1d57ed16" style="width: 100.0%; height: 100.0%;">Manor AG Biel/Bienne</div>`)[0];
+                popup_9eda6f7aeefac8838e9689bd2b7a13c3.setContent(html_62b16203e6e5bf9d0b6e57da1d57ed16);
+            
+        
+
+        marker_4ce63341cd8ea473c0c1e42f80fa4f8b.bindPopup(popup_9eda6f7aeefac8838e9689bd2b7a13c3)
+        ;
+
+        
+    
+    
+            marker_4ce63341cd8ea473c0c1e42f80fa4f8b.bindTooltip(
+                `<div>
+                     Manor AG Biel/Bienne
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ac3e4f5939c3a72a4610df7afe0819e8 = L.marker(
+                [46.9484742, 7.4521749],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_ce25390b9bf5c5f91dc8ec7fe1c1c3b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60e1068281cdea9fe457a209a8f1440b = $(`<div id="html_60e1068281cdea9fe457a209a8f1440b" style="width: 100.0%; height: 100.0%;">vatter Royal</div>`)[0];
+                popup_ce25390b9bf5c5f91dc8ec7fe1c1c3b9.setContent(html_60e1068281cdea9fe457a209a8f1440b);
+            
+        
+
+        marker_ac3e4f5939c3a72a4610df7afe0819e8.bindPopup(popup_ce25390b9bf5c5f91dc8ec7fe1c1c3b9)
+        ;
+
+        
+    
+    
+            marker_ac3e4f5939c3a72a4610df7afe0819e8.bindTooltip(
+                `<div>
+                     vatter Royal
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_66bcc3d40124ef3262cd96ae58e53499 = L.marker(
+                [46.6022665, 9.4269682],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_c23105888f5be7d7de35816647c5b170 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4ce27b25e717edbb01edaf83596fde1 = $(`<div id="html_a4ce27b25e717edbb01edaf83596fde1" style="width: 100.0%; height: 100.0%;">Andeerer Sennerei</div>`)[0];
+                popup_c23105888f5be7d7de35816647c5b170.setContent(html_a4ce27b25e717edbb01edaf83596fde1);
+            
+        
+
+        marker_66bcc3d40124ef3262cd96ae58e53499.bindPopup(popup_c23105888f5be7d7de35816647c5b170)
+        ;
+
+        
+    
+    
+            marker_66bcc3d40124ef3262cd96ae58e53499.bindTooltip(
+                `<div>
+                     Andeerer Sennerei
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3095aec7bcebfa9ccf4d99647fc86d5d = L.marker(
+                [46.0050102, 8.9520281],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_da4109d6339c7b09b5c16ac1dcb37746 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_100b7c55531a3c460e53fd7fe39323ba = $(`<div id="html_100b7c55531a3c460e53fd7fe39323ba" style="width: 100.0%; height: 100.0%;">Manor SA Lugano</div>`)[0];
+                popup_da4109d6339c7b09b5c16ac1dcb37746.setContent(html_100b7c55531a3c460e53fd7fe39323ba);
+            
+        
+
+        marker_3095aec7bcebfa9ccf4d99647fc86d5d.bindPopup(popup_da4109d6339c7b09b5c16ac1dcb37746)
+        ;
+
+        
+    
+    
+            marker_3095aec7bcebfa9ccf4d99647fc86d5d.bindTooltip(
+                `<div>
+                     Manor SA Lugano
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2833075e507445d6e1ca911a268b4931 = L.marker(
+                [47.3744489, 8.5410422],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_ca8a76a784113f5d78fe0c0400d7f947 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4eb40bd5c4dc9ac09589aac7a2f4a0f2 = $(`<div id="html_4eb40bd5c4dc9ac09589aac7a2f4a0f2" style="width: 100.0%; height: 100.0%;">Café RebelDia</div>`)[0];
+                popup_ca8a76a784113f5d78fe0c0400d7f947.setContent(html_4eb40bd5c4dc9ac09589aac7a2f4a0f2);
+            
+        
+
+        marker_2833075e507445d6e1ca911a268b4931.bindPopup(popup_ca8a76a784113f5d78fe0c0400d7f947)
+        ;
+
+        
+    
+    
+            marker_2833075e507445d6e1ca911a268b4931.bindTooltip(
+                `<div>
+                     Café RebelDia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_366b7b3fdb9b4e29fc23fdae708ce179 = L.marker(
+                [47.0752429, 8.2839456],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_273c41f386ac0e896194845009810624 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9d0d47e1e1fdf25328fd26b3d2aa38d = $(`<div id="html_a9d0d47e1e1fdf25328fd26b3d2aa38d" style="width: 100.0%; height: 100.0%;">Manor AG Emmen</div>`)[0];
+                popup_273c41f386ac0e896194845009810624.setContent(html_a9d0d47e1e1fdf25328fd26b3d2aa38d);
+            
+        
+
+        marker_366b7b3fdb9b4e29fc23fdae708ce179.bindPopup(popup_273c41f386ac0e896194845009810624)
+        ;
+
+        
+    
+    
+            marker_366b7b3fdb9b4e29fc23fdae708ce179.bindTooltip(
+                `<div>
+                     Manor AG Emmen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ed83c76d35f4264366cc40b43b044c0b = L.marker(
+                [46.1588576, 8.969006],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_ba0ba4aefeb9526479457ea26d95dc5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac1aba1ad309f98a637c13ee4f6c4f28 = $(`<div id="html_ac1aba1ad309f98a637c13ee4f6c4f28" style="width: 100.0%; height: 100.0%;">Manor SA  Sant Antonino</div>`)[0];
+                popup_ba0ba4aefeb9526479457ea26d95dc5f.setContent(html_ac1aba1ad309f98a637c13ee4f6c4f28);
+            
+        
+
+        marker_ed83c76d35f4264366cc40b43b044c0b.bindPopup(popup_ba0ba4aefeb9526479457ea26d95dc5f)
+        ;
+
+        
+    
+    
+            marker_ed83c76d35f4264366cc40b43b044c0b.bindTooltip(
+                `<div>
+                     Manor SA  Sant Antonino
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fd76eef3b81a3e8239aeb71a1a6a049a = L.marker(
+                [47.0482641, 9.4401995],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_1af73ea7e847f5e58a29afd35d79dc08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_504bec7277fae2af4e7cae4efdf27899 = $(`<div id="html_504bec7277fae2af4e7cae4efdf27899" style="width: 100.0%; height: 100.0%;">Manor AG Sargans</div>`)[0];
+                popup_1af73ea7e847f5e58a29afd35d79dc08.setContent(html_504bec7277fae2af4e7cae4efdf27899);
+            
+        
+
+        marker_fd76eef3b81a3e8239aeb71a1a6a049a.bindPopup(popup_1af73ea7e847f5e58a29afd35d79dc08)
+        ;
+
+        
+    
+    
+            marker_fd76eef3b81a3e8239aeb71a1a6a049a.bindTooltip(
+                `<div>
+                     Manor AG Sargans
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_53e68f2fea8261c6635c7f33b6c39aad = L.marker(
+                [47.4331806, 9.6365141],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_c05f9046e9f0021f0debf6f4824c957d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5eb25461b021118cadb21d266a70f221 = $(`<div id="html_5eb25461b021118cadb21d266a70f221" style="width: 100.0%; height: 100.0%;">Guggenloch AG Feinbäckerei</div>`)[0];
+                popup_c05f9046e9f0021f0debf6f4824c957d.setContent(html_5eb25461b021118cadb21d266a70f221);
+            
+        
+
+        marker_53e68f2fea8261c6635c7f33b6c39aad.bindPopup(popup_c05f9046e9f0021f0debf6f4824c957d)
+        ;
+
+        
+    
+    
+            marker_53e68f2fea8261c6635c7f33b6c39aad.bindTooltip(
+                `<div>
+                     Guggenloch AG Feinbäckerei
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8b7b3fcde5a3c42d9407c4f637e94893 = L.marker(
+                [45.8491908, 9.0070811],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_a63d0a09b919d299fa9bf133ea0ddfcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff06afaf8659402a1565b58fff66ccc3 = $(`<div id="html_ff06afaf8659402a1565b58fff66ccc3" style="width: 100.0%; height: 100.0%;">Manor SA Balerna</div>`)[0];
+                popup_a63d0a09b919d299fa9bf133ea0ddfcb.setContent(html_ff06afaf8659402a1565b58fff66ccc3);
+            
+        
+
+        marker_8b7b3fcde5a3c42d9407c4f637e94893.bindPopup(popup_a63d0a09b919d299fa9bf133ea0ddfcb)
+        ;
+
+        
+    
+    
+            marker_8b7b3fcde5a3c42d9407c4f637e94893.bindTooltip(
+                `<div>
+                     Manor SA Balerna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c28eb746e824f2ce415e8bcad479ea1d = L.marker(
+                [46.2017559, 6.1466014],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_1d0a68855598fb61f83cc6d1e9637c6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbf730e2948d4a0b1e4df856ccbcea12 = $(`<div id="html_cbf730e2948d4a0b1e4df856ccbcea12" style="width: 100.0%; height: 100.0%;">Manor SA Genf</div>`)[0];
+                popup_1d0a68855598fb61f83cc6d1e9637c6f.setContent(html_cbf730e2948d4a0b1e4df856ccbcea12);
+            
+        
+
+        marker_c28eb746e824f2ce415e8bcad479ea1d.bindPopup(popup_1d0a68855598fb61f83cc6d1e9637c6f)
+        ;
+
+        
+    
+    
+            marker_c28eb746e824f2ce415e8bcad479ea1d.bindTooltip(
+                `<div>
+                     Manor SA Genf
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_10904e261b505c35a838c4136a575093 = L.marker(
+                [46.854747, 9.5264904],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_11a20886f979ce191b3d4698ff3923b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3463d5528366ac1a08216a7d7a669a37 = $(`<div id="html_3463d5528366ac1a08216a7d7a669a37" style="width: 100.0%; height: 100.0%;">pluswert gmbh</div>`)[0];
+                popup_11a20886f979ce191b3d4698ff3923b1.setContent(html_3463d5528366ac1a08216a7d7a669a37);
+            
+        
+
+        marker_10904e261b505c35a838c4136a575093.bindPopup(popup_11a20886f979ce191b3d4698ff3923b1)
+        ;
+
+        
+    
+    
+            marker_10904e261b505c35a838c4136a575093.bindTooltip(
+                `<div>
+                     pluswert gmbh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0d8426deabf4a23856004934faea6582 = L.marker(
+                [46.6789116, 7.1027113],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_940c7d27a5e13a6072dcf2c19c7dadf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fdc379abe9da2edd04a7628debd475d = $(`<div id="html_6fdc379abe9da2edd04a7628debd475d" style="width: 100.0%; height: 100.0%;">Manor SA Fribourg</div>`)[0];
+                popup_940c7d27a5e13a6072dcf2c19c7dadf2.setContent(html_6fdc379abe9da2edd04a7628debd475d);
+            
+        
+
+        marker_0d8426deabf4a23856004934faea6582.bindPopup(popup_940c7d27a5e13a6072dcf2c19c7dadf2)
+        ;
+
+        
+    
+    
+            marker_0d8426deabf4a23856004934faea6582.bindTooltip(
+                `<div>
+                     Manor SA Fribourg
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_833a004988a25cb4e4ba555621de3b7d = L.marker(
+                [47.1153443, 8.3911091],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_fa1d7ed5360014e76dab253fa11c37d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd458c0cb9f7c12bb54337ce7c15536b = $(`<div id="html_bd458c0cb9f7c12bb54337ce7c15536b" style="width: 100.0%; height: 100.0%;">Fredag AG</div>`)[0];
+                popup_fa1d7ed5360014e76dab253fa11c37d4.setContent(html_bd458c0cb9f7c12bb54337ce7c15536b);
+            
+        
+
+        marker_833a004988a25cb4e4ba555621de3b7d.bindPopup(popup_fa1d7ed5360014e76dab253fa11c37d4)
+        ;
+
+        
+    
+    
+            marker_833a004988a25cb4e4ba555621de3b7d.bindTooltip(
+                `<div>
+                     Fredag AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8a3deee897dc29e89de0d20bd7197043 = L.marker(
+                [46.4602978, 6.8418655],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_c85c8846513ce72ef3309562fccfec7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b31d6fe5ebcf8b9464a7837716ef0e9 = $(`<div id="html_8b31d6fe5ebcf8b9464a7837716ef0e9" style="width: 100.0%; height: 100.0%;">Manor SA Vevey</div>`)[0];
+                popup_c85c8846513ce72ef3309562fccfec7c.setContent(html_8b31d6fe5ebcf8b9464a7837716ef0e9);
+            
+        
+
+        marker_8a3deee897dc29e89de0d20bd7197043.bindPopup(popup_c85c8846513ce72ef3309562fccfec7c)
+        ;
+
+        
+    
+    
+            marker_8a3deee897dc29e89de0d20bd7197043.bindTooltip(
+                `<div>
+                     Manor SA Vevey
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_691458a968342fe2466eafd6bea2e486 = L.marker(
+                [46.3446425, 6.1625796],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_bee0418d696585daebbef7067e21e8d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_581d9d54d7656afd6cc36bd998096b15 = $(`<div id="html_581d9d54d7656afd6cc36bd998096b15" style="width: 100.0%; height: 100.0%;">Manor SA Chavannes-de-Bogis</div>`)[0];
+                popup_bee0418d696585daebbef7067e21e8d8.setContent(html_581d9d54d7656afd6cc36bd998096b15);
+            
+        
+
+        marker_691458a968342fe2466eafd6bea2e486.bindPopup(popup_bee0418d696585daebbef7067e21e8d8)
+        ;
+
+        
+    
+    
+            marker_691458a968342fe2466eafd6bea2e486.bindTooltip(
+                `<div>
+                     Manor SA Chavannes-de-Bogis
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_31d57b2c6c7cb1e052151b9e8d0d52e8 = L.marker(
+                [47.425618, 9.3762397],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_3948ca3ae2f116acbf00e217585a31ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08f164c9f2d6745ff8290642c952fd42 = $(`<div id="html_08f164c9f2d6745ff8290642c952fd42" style="width: 100.0%; height: 100.0%;">amiata</div>`)[0];
+                popup_3948ca3ae2f116acbf00e217585a31ae.setContent(html_08f164c9f2d6745ff8290642c952fd42);
+            
+        
+
+        marker_31d57b2c6c7cb1e052151b9e8d0d52e8.bindPopup(popup_3948ca3ae2f116acbf00e217585a31ae)
+        ;
+
+        
+    
+    
+            marker_31d57b2c6c7cb1e052151b9e8d0d52e8.bindTooltip(
+                `<div>
+                     amiata
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3277dea6caa4359311633afa2a7197c6 = L.marker(
+                [47.31874, 7.6698284],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_d94a46d77f3e8b265e9cd747ec858e5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4170cb6b8c7922db46cf25b38a70332 = $(`<div id="html_b4170cb6b8c7922db46cf25b38a70332" style="width: 100.0%; height: 100.0%;">Oetterli + Co. AG</div>`)[0];
+                popup_d94a46d77f3e8b265e9cd747ec858e5f.setContent(html_b4170cb6b8c7922db46cf25b38a70332);
+            
+        
+
+        marker_3277dea6caa4359311633afa2a7197c6.bindPopup(popup_d94a46d77f3e8b265e9cd747ec858e5f)
+        ;
+
+        
+    
+    
+            marker_3277dea6caa4359311633afa2a7197c6.bindTooltip(
+                `<div>
+                     Oetterli + Co. AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ccd38f75cdb5bf0c599ae95a50978826 = L.marker(
+                [46.2311749, 7.3588795],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_976159e0031db7e31e9e8088f8ae62fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22496b37488f298e6d3ebc3182edebff = $(`<div id="html_22496b37488f298e6d3ebc3182edebff" style="width: 100.0%; height: 100.0%;">Manor SA Sion</div>`)[0];
+                popup_976159e0031db7e31e9e8088f8ae62fc.setContent(html_22496b37488f298e6d3ebc3182edebff);
+            
+        
+
+        marker_ccd38f75cdb5bf0c599ae95a50978826.bindPopup(popup_976159e0031db7e31e9e8088f8ae62fc)
+        ;
+
+        
+    
+    
+            marker_ccd38f75cdb5bf0c599ae95a50978826.bindTooltip(
+                `<div>
+                     Manor SA Sion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3e3cbf86ba5ba7fb8ae94e99ce1c685b = L.marker(
+                [47.2159036, 8.6101778],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_ba53248e382775731ec8db610576b6f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_642c4c74113dae0b65ed32dc2792bd73 = $(`<div id="html_642c4c74113dae0b65ed32dc2792bd73" style="width: 100.0%; height: 100.0%;">Traktor Getränke AG</div>`)[0];
+                popup_ba53248e382775731ec8db610576b6f5.setContent(html_642c4c74113dae0b65ed32dc2792bd73);
+            
+        
+
+        marker_3e3cbf86ba5ba7fb8ae94e99ce1c685b.bindPopup(popup_ba53248e382775731ec8db610576b6f5)
+        ;
+
+        
+    
+    
+            marker_3e3cbf86ba5ba7fb8ae94e99ce1c685b.bindTooltip(
+                `<div>
+                     Traktor Getränke AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f77a4f983e93a5512bfa855b1c26a456 = L.marker(
+                [46.9308618, 7.5645522],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_9567d6531c027bc03ab5ad00a0ae87de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_091370d164cf05d9340395730daa0eb3 = $(`<div id="html_091370d164cf05d9340395730daa0eb3" style="width: 100.0%; height: 100.0%;">MizuLe GmbH</div>`)[0];
+                popup_9567d6531c027bc03ab5ad00a0ae87de.setContent(html_091370d164cf05d9340395730daa0eb3);
+            
+        
+
+        marker_f77a4f983e93a5512bfa855b1c26a456.bindPopup(popup_9567d6531c027bc03ab5ad00a0ae87de)
+        ;
+
+        
+    
+    
+            marker_f77a4f983e93a5512bfa855b1c26a456.bindTooltip(
+                `<div>
+                     MizuLe GmbH
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f9f15a9872fb62d9de75bafdcd096605 = L.marker(
+                [47.085166, 7.5815694],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_a78c8cb248c0371fa345f01ef3cf414d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_192e9a2a444f598e8784f61c365d6b8b = $(`<div id="html_192e9a2a444f598e8784f61c365d6b8b" style="width: 100.0%; height: 100.0%;">Bio-Metzg AG</div>`)[0];
+                popup_a78c8cb248c0371fa345f01ef3cf414d.setContent(html_192e9a2a444f598e8784f61c365d6b8b);
+            
+        
+
+        marker_f9f15a9872fb62d9de75bafdcd096605.bindPopup(popup_a78c8cb248c0371fa345f01ef3cf414d)
+        ;
+
+        
+    
+    
+            marker_f9f15a9872fb62d9de75bafdcd096605.bindTooltip(
+                `<div>
+                     Bio-Metzg AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6c4528555b493392dfaf0969ae678c71 = L.marker(
+                [47.1398874, 7.3030953],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_763dc4fea120877254304f57949f3507 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2022f530a1b7adf48d230d9c4c3e6885 = $(`<div id="html_2022f530a1b7adf48d230d9c4c3e6885" style="width: 100.0%; height: 100.0%;">claro fair trade AG</div>`)[0];
+                popup_763dc4fea120877254304f57949f3507.setContent(html_2022f530a1b7adf48d230d9c4c3e6885);
+            
+        
+
+        marker_6c4528555b493392dfaf0969ae678c71.bindPopup(popup_763dc4fea120877254304f57949f3507)
+        ;
+
+        
+    
+    
+            marker_6c4528555b493392dfaf0969ae678c71.bindTooltip(
+                `<div>
+                     claro fair trade AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4abb9d983a60ceb37efc046660429bdb = L.marker(
+                [47.4736827, 8.3086822],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_4179cef8d0a26acdd221431800db67ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75bbeb91195a6cc13710f58986aa4cb5 = $(`<div id="html_75bbeb91195a6cc13710f58986aa4cb5" style="width: 100.0%; height: 100.0%;">Manor AG Baden</div>`)[0];
+                popup_4179cef8d0a26acdd221431800db67ac.setContent(html_75bbeb91195a6cc13710f58986aa4cb5);
+            
+        
+
+        marker_4abb9d983a60ceb37efc046660429bdb.bindPopup(popup_4179cef8d0a26acdd221431800db67ac)
+        ;
+
+        
+    
+    
+            marker_4abb9d983a60ceb37efc046660429bdb.bindTooltip(
+                `<div>
+                     Manor AG Baden
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8817c654d846a3a0f6e3371353700333 = L.marker(
+                [46.252844, 6.9478263],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_6686c246996970db947d10eb0c22aec9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6867207aac3a35b35bec3c12c6ddc3a7 = $(`<div id="html_6867207aac3a35b35bec3c12c6ddc3a7" style="width: 100.0%; height: 100.0%;">Manor SA Monthey</div>`)[0];
+                popup_6686c246996970db947d10eb0c22aec9.setContent(html_6867207aac3a35b35bec3c12c6ddc3a7);
+            
+        
+
+        marker_8817c654d846a3a0f6e3371353700333.bindPopup(popup_6686c246996970db947d10eb0c22aec9)
+        ;
+
+        
+    
+    
+            marker_8817c654d846a3a0f6e3371353700333.bindTooltip(
+                `<div>
+                     Manor SA Monthey
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d0ddc4939c4ab1e133662eb32b064e48 = L.marker(
+                [47.4663147, 9.0854424],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_78fe90775faf7bd2a4f5e9f421a2ffc3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6d8a0fb207627a2368052f56d1d9af1 = $(`<div id="html_a6d8a0fb207627a2368052f56d1d9af1" style="width: 100.0%; height: 100.0%;">Kirin Health Care</div>`)[0];
+                popup_78fe90775faf7bd2a4f5e9f421a2ffc3.setContent(html_a6d8a0fb207627a2368052f56d1d9af1);
+            
+        
+
+        marker_d0ddc4939c4ab1e133662eb32b064e48.bindPopup(popup_78fe90775faf7bd2a4f5e9f421a2ffc3)
+        ;
+
+        
+    
+    
+            marker_d0ddc4939c4ab1e133662eb32b064e48.bindTooltip(
+                `<div>
+                     Kirin Health Care
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_60f273e284e0782842791a984ab9ec27 = L.marker(
+                [47.1402077, 7.2439029],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_8ddd7264360f4f754d3fd2cc1c74b036 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe1da6374a0ba3c4a4d047aff61e87f4 = $(`<div id="html_fe1da6374a0ba3c4a4d047aff61e87f4" style="width: 100.0%; height: 100.0%;">boutique de sirop</div>`)[0];
+                popup_8ddd7264360f4f754d3fd2cc1c74b036.setContent(html_fe1da6374a0ba3c4a4d047aff61e87f4);
+            
+        
+
+        marker_60f273e284e0782842791a984ab9ec27.bindPopup(popup_8ddd7264360f4f754d3fd2cc1c74b036)
+        ;
+
+        
+    
+    
+            marker_60f273e284e0782842791a984ab9ec27.bindTooltip(
+                `<div>
+                     boutique de sirop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9f8e8fb7e5c484398a408f3e23877230 = L.marker(
+                [47.2266532, 8.8164042],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_e44fd7acf114340c61bb1ab3e1194050 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cd640765b3ab13db560812a9b6b791d = $(`<div id="html_4cd640765b3ab13db560812a9b6b791d" style="width: 100.0%; height: 100.0%;">Manor AG Rapperswil</div>`)[0];
+                popup_e44fd7acf114340c61bb1ab3e1194050.setContent(html_4cd640765b3ab13db560812a9b6b791d);
+            
+        
+
+        marker_9f8e8fb7e5c484398a408f3e23877230.bindPopup(popup_e44fd7acf114340c61bb1ab3e1194050)
+        ;
+
+        
+    
+    
+            marker_9f8e8fb7e5c484398a408f3e23877230.bindTooltip(
+                `<div>
+                     Manor AG Rapperswil
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_546fe74803f2133d92483a36dc4d4e85 = L.marker(
+                [47.326936, 8.7996444],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_beae53a76f11860b2c4be411b34972e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1996800ce4a68135c52aba580541381c = $(`<div id="html_1996800ce4a68135c52aba580541381c" style="width: 100.0%; height: 100.0%;">Kornladen Kempten</div>`)[0];
+                popup_beae53a76f11860b2c4be411b34972e2.setContent(html_1996800ce4a68135c52aba580541381c);
+            
+        
+
+        marker_546fe74803f2133d92483a36dc4d4e85.bindPopup(popup_beae53a76f11860b2c4be411b34972e2)
+        ;
+
+        
+    
+    
+            marker_546fe74803f2133d92483a36dc4d4e85.bindTooltip(
+                `<div>
+                     Kornladen Kempten
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_af33b7159519c5483b1d47c773ca8315 = L.marker(
+                [46.2922522, 7.5323195],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_8173bbc8ad7e577e336804b8ca8bccc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e4e77b32d25025fa803ac1f657b59a3 = $(`<div id="html_7e4e77b32d25025fa803ac1f657b59a3" style="width: 100.0%; height: 100.0%;">Manor SA Sierre</div>`)[0];
+                popup_8173bbc8ad7e577e336804b8ca8bccc6.setContent(html_7e4e77b32d25025fa803ac1f657b59a3);
+            
+        
+
+        marker_af33b7159519c5483b1d47c773ca8315.bindPopup(popup_8173bbc8ad7e577e336804b8ca8bccc6)
+        ;
+
+        
+    
+    
+            marker_af33b7159519c5483b1d47c773ca8315.bindTooltip(
+                `<div>
+                     Manor SA Sierre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e15fe5c919227f183bfacb12d1d8a4c4 = L.marker(
+                [47.4467262, 8.7922716],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_c8eb7e4a1c59045483e86735c8e337a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e36ef48b247790327b0c2ac564cea7f6 = $(`<div id="html_e36ef48b247790327b0c2ac564cea7f6" style="width: 100.0%; height: 100.0%;">Soilcare GmbH</div>`)[0];
+                popup_c8eb7e4a1c59045483e86735c8e337a6.setContent(html_e36ef48b247790327b0c2ac564cea7f6);
+            
+        
+
+        marker_e15fe5c919227f183bfacb12d1d8a4c4.bindPopup(popup_c8eb7e4a1c59045483e86735c8e337a6)
+        ;
+
+        
+    
+    
+            marker_e15fe5c919227f183bfacb12d1d8a4c4.bindTooltip(
+                `<div>
+                     Soilcare GmbH
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ea3b28a2799f6fce86165d696688a2da = L.marker(
+                [47.3744489, 8.5410422],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_1c02035e48e7bdd651fb1365cca0573b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba03585ba59ce72feb36439067a20e7d = $(`<div id="html_ba03585ba59ce72feb36439067a20e7d" style="width: 100.0%; height: 100.0%;">der bioladen</div>`)[0];
+                popup_1c02035e48e7bdd651fb1365cca0573b.setContent(html_ba03585ba59ce72feb36439067a20e7d);
+            
+        
+
+        marker_ea3b28a2799f6fce86165d696688a2da.bindPopup(popup_1c02035e48e7bdd651fb1365cca0573b)
+        ;
+
+        
+    
+    
+            marker_ea3b28a2799f6fce86165d696688a2da.bindTooltip(
+                `<div>
+                     der bioladen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ae7586fbaac08474d1d6233ae5d9def1 = L.marker(
+                [47.465266, 9.0415478],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_765fe5eb506e157c1762918ce5e171e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0652e7bd6169f67b3fb7ea02b09d04e5 = $(`<div id="html_0652e7bd6169f67b3fb7ea02b09d04e5" style="width: 100.0%; height: 100.0%;">Korn.Haus</div>`)[0];
+                popup_765fe5eb506e157c1762918ce5e171e2.setContent(html_0652e7bd6169f67b3fb7ea02b09d04e5);
+            
+        
+
+        marker_ae7586fbaac08474d1d6233ae5d9def1.bindPopup(popup_765fe5eb506e157c1762918ce5e171e2)
+        ;
+
+        
+    
+    
+            marker_ae7586fbaac08474d1d6233ae5d9def1.bindTooltip(
+                `<div>
+                     Korn.Haus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f7d0898b82d586618ead360fe5b8f88f = L.marker(
+                [47.1951976, 8.5253985],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_90698232bc7a79b287b88d6f080c721d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e21434976de8c74bcb1602689a2ad956 = $(`<div id="html_e21434976de8c74bcb1602689a2ad956" style="width: 100.0%; height: 100.0%;">Kennel AG</div>`)[0];
+                popup_90698232bc7a79b287b88d6f080c721d.setContent(html_e21434976de8c74bcb1602689a2ad956);
+            
+        
+
+        marker_f7d0898b82d586618ead360fe5b8f88f.bindPopup(popup_90698232bc7a79b287b88d6f080c721d)
+        ;
+
+        
+    
+    
+            marker_f7d0898b82d586618ead360fe5b8f88f.bindTooltip(
+                `<div>
+                     Kennel AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a92c97c438a18963e6df6221896c6b4b = L.marker(
+                [47.0091238, 6.9999328],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_1ba9c8ec82503be1e0f8e947986c3789 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3ab7b92dd6cc9b358f5e7bdea27ac72 = $(`<div id="html_f3ab7b92dd6cc9b358f5e7bdea27ac72" style="width: 100.0%; height: 100.0%;">Manor SA Marin Epagnier</div>`)[0];
+                popup_1ba9c8ec82503be1e0f8e947986c3789.setContent(html_f3ab7b92dd6cc9b358f5e7bdea27ac72);
+            
+        
+
+        marker_a92c97c438a18963e6df6221896c6b4b.bindPopup(popup_1ba9c8ec82503be1e0f8e947986c3789)
+        ;
+
+        
+    
+    
+            marker_a92c97c438a18963e6df6221896c6b4b.bindTooltip(
+                `<div>
+                     Manor SA Marin Epagnier
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e567dfb89f4a4d827354bd107fa96150 = L.marker(
+                [47.6464362, 9.1725621],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_3ba7b2da3d88be31e56b3d79b0e97f90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ece4168d28b894dce4125ee14f6b1717 = $(`<div id="html_ece4168d28b894dce4125ee14f6b1717" style="width: 100.0%; height: 100.0%;">Chocolat Bernrain AG</div>`)[0];
+                popup_3ba7b2da3d88be31e56b3d79b0e97f90.setContent(html_ece4168d28b894dce4125ee14f6b1717);
+            
+        
+
+        marker_e567dfb89f4a4d827354bd107fa96150.bindPopup(popup_3ba7b2da3d88be31e56b3d79b0e97f90)
+        ;
+
+        
+    
+    
+            marker_e567dfb89f4a4d827354bd107fa96150.bindTooltip(
+                `<div>
+                     Chocolat Bernrain AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_553df4dd3c4f52ea9a2ba0170f830db7 = L.marker(
+                [46.2399181, 6.1982222],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_64bc5659b92ef8ff2ab8e7fb9b874671 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dd5773b027ec0cedffe7764132ad76e = $(`<div id="html_1dd5773b027ec0cedffe7764132ad76e" style="width: 100.0%; height: 100.0%;">Manor AG Vésenaz</div>`)[0];
+                popup_64bc5659b92ef8ff2ab8e7fb9b874671.setContent(html_1dd5773b027ec0cedffe7764132ad76e);
+            
+        
+
+        marker_553df4dd3c4f52ea9a2ba0170f830db7.bindPopup(popup_64bc5659b92ef8ff2ab8e7fb9b874671)
+        ;
+
+        
+    
+    
+            marker_553df4dd3c4f52ea9a2ba0170f830db7.bindTooltip(
+                `<div>
+                     Manor AG Vésenaz
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3924e7db7d8bae79e7065b3c496625a3 = L.marker(
+                [47.0514104, 7.4715761],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_eb7a086cd868bd8ea10e68fb494dc1be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5d3f799476c3d9bd8142778db51ae19 = $(`<div id="html_a5d3f799476c3d9bd8142778db51ae19" style="width: 100.0%; height: 100.0%;">Guam</div>`)[0];
+                popup_eb7a086cd868bd8ea10e68fb494dc1be.setContent(html_a5d3f799476c3d9bd8142778db51ae19);
+            
+        
+
+        marker_3924e7db7d8bae79e7065b3c496625a3.bindPopup(popup_eb7a086cd868bd8ea10e68fb494dc1be)
+        ;
+
+        
+    
+    
+            marker_3924e7db7d8bae79e7065b3c496625a3.bindTooltip(
+                `<div>
+                     Guam
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c9e0c92a02203756f8dca0a0aeff17ac = L.marker(
+                [46.5874205, 7.6444369],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_a5b587f30722be6e0c92ad4eae50f77b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e301f15e4ab26f26cc400ce3366c3a07 = $(`<div id="html_e301f15e4ab26f26cc400ce3366c3a07" style="width: 100.0%; height: 100.0%;">Gesundquelle Naturladen</div>`)[0];
+                popup_a5b587f30722be6e0c92ad4eae50f77b.setContent(html_e301f15e4ab26f26cc400ce3366c3a07);
+            
+        
+
+        marker_c9e0c92a02203756f8dca0a0aeff17ac.bindPopup(popup_a5b587f30722be6e0c92ad4eae50f77b)
+        ;
+
+        
+    
+    
+            marker_c9e0c92a02203756f8dca0a0aeff17ac.bindTooltip(
+                `<div>
+                     Gesundquelle Naturladen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3cfcfefb95d83883df9412d03414c42d = L.marker(
+                [46.9484742, 7.4521749],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_800d24cfb7e88ae98a783791f721ddc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c306e088a2b10bb067055cbf68dabe7 = $(`<div id="html_0c306e088a2b10bb067055cbf68dabe7" style="width: 100.0%; height: 100.0%;">Fairsicherungsberatung</div>`)[0];
+                popup_800d24cfb7e88ae98a783791f721ddc6.setContent(html_0c306e088a2b10bb067055cbf68dabe7);
+            
+        
+
+        marker_3cfcfefb95d83883df9412d03414c42d.bindPopup(popup_800d24cfb7e88ae98a783791f721ddc6)
+        ;
+
+        
+    
+    
+            marker_3cfcfefb95d83883df9412d03414c42d.bindTooltip(
+                `<div>
+                     Fairsicherungsberatung
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7810ff58411623cab6e7b73ba96ae3d3 = L.marker(
+                [46.5218269, 6.6327025],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_7a526eb921d4f21898a6163b377a45ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89ccf21450730e5ae193c070ff052d2a = $(`<div id="html_89ccf21450730e5ae193c070ff052d2a" style="width: 100.0%; height: 100.0%;">Manor SA Lausanne</div>`)[0];
+                popup_7a526eb921d4f21898a6163b377a45ce.setContent(html_89ccf21450730e5ae193c070ff052d2a);
+            
+        
+
+        marker_7810ff58411623cab6e7b73ba96ae3d3.bindPopup(popup_7a526eb921d4f21898a6163b377a45ce)
+        ;
+
+        
+    
+    
+            marker_7810ff58411623cab6e7b73ba96ae3d3.bindTooltip(
+                `<div>
+                     Manor SA Lausanne
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2555f04dedcf50be0b3febb3e4acb637 = L.marker(
+                [46.854747, 9.5264904],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_1fb9ff10edf899b51d4552dafe011e65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f5ab6212cbaecef9d6eed819c20fc22 = $(`<div id="html_9f5ab6212cbaecef9d6eed819c20fc22" style="width: 100.0%; height: 100.0%;">Manor AG Chur</div>`)[0];
+                popup_1fb9ff10edf899b51d4552dafe011e65.setContent(html_9f5ab6212cbaecef9d6eed819c20fc22);
+            
+        
+
+        marker_2555f04dedcf50be0b3febb3e4acb637.bindPopup(popup_1fb9ff10edf899b51d4552dafe011e65)
+        ;
+
+        
+    
+    
+            marker_2555f04dedcf50be0b3febb3e4acb637.bindTooltip(
+                `<div>
+                     Manor AG Chur
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b56038478347291bfe13636a2d1437c5 = L.marker(
+                [47.0505452, 8.3054682],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_43da23d1a830f00b9a514a5fa98e053e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9510c4b22d3867757039a4269dc23451 = $(`<div id="html_9510c4b22d3867757039a4269dc23451" style="width: 100.0%; height: 100.0%;">B!O Shop Viktoria</div>`)[0];
+                popup_43da23d1a830f00b9a514a5fa98e053e.setContent(html_9510c4b22d3867757039a4269dc23451);
+            
+        
+
+        marker_b56038478347291bfe13636a2d1437c5.bindPopup(popup_43da23d1a830f00b9a514a5fa98e053e)
+        ;
+
+        
+    
+    
+            marker_b56038478347291bfe13636a2d1437c5.bindTooltip(
+                `<div>
+                     B!O Shop Viktoria
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2494e92d9f10bbffb3d04efe54b7d504 = L.marker(
+                [47.4756613, 9.0369696],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_b77b70dee62338dd1628a5ff5f19505d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2233fe79adb9ce42febd384f66d11ae7 = $(`<div id="html_2233fe79adb9ce42febd384f66d11ae7" style="width: 100.0%; height: 100.0%;">freshtaste</div>`)[0];
+                popup_b77b70dee62338dd1628a5ff5f19505d.setContent(html_2233fe79adb9ce42febd384f66d11ae7);
+            
+        
+
+        marker_2494e92d9f10bbffb3d04efe54b7d504.bindPopup(popup_b77b70dee62338dd1628a5ff5f19505d)
+        ;
+
+        
+    
+    
+            marker_2494e92d9f10bbffb3d04efe54b7d504.bindTooltip(
+                `<div>
+                     freshtaste
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ba9e6adf77df2a4027fd72077a59ae17 = L.marker(
+                [47.3512065, 8.7179221],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_bf23b961a428b708d131c0efdd8e33cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fad4146e341fb0e5a874b9a9b8a84ae1 = $(`<div id="html_fad4146e341fb0e5a874b9a9b8a84ae1" style="width: 100.0%; height: 100.0%;">Sundaram AG</div>`)[0];
+                popup_bf23b961a428b708d131c0efdd8e33cd.setContent(html_fad4146e341fb0e5a874b9a9b8a84ae1);
+            
+        
+
+        marker_ba9e6adf77df2a4027fd72077a59ae17.bindPopup(popup_bf23b961a428b708d131c0efdd8e33cd)
+        ;
+
+        
+    
+    
+            marker_ba9e6adf77df2a4027fd72077a59ae17.bindTooltip(
+                `<div>
+                     Sundaram AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e557a7133d99e6112a323ed145971126 = L.marker(
+                [47.4824633, 8.2085662],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_ffb0579cbd6fe22177cb855e57d9f5fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24f3b1eef9e5d538c3dde6a749701da0 = $(`<div id="html_24f3b1eef9e5d538c3dde6a749701da0" style="width: 100.0%; height: 100.0%;">Buono</div>`)[0];
+                popup_ffb0579cbd6fe22177cb855e57d9f5fd.setContent(html_24f3b1eef9e5d538c3dde6a749701da0);
+            
+        
+
+        marker_e557a7133d99e6112a323ed145971126.bindPopup(popup_ffb0579cbd6fe22177cb855e57d9f5fd)
+        ;
+
+        
+    
+    
+            marker_e557a7133d99e6112a323ed145971126.bindTooltip(
+                `<div>
+                     Buono
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c0fe6435aef34ad9baebd455962d6f3d = L.marker(
+                [47.2116019, 7.788786],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_36923b87e7eaefccaaa6115155a982f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b96e0743367bf384775bf0ef75cec8fd = $(`<div id="html_b96e0743367bf384775bf0ef75cec8fd" style="width: 100.0%; height: 100.0%;">Hess Natur-Textilien AG</div>`)[0];
+                popup_36923b87e7eaefccaaa6115155a982f5.setContent(html_b96e0743367bf384775bf0ef75cec8fd);
+            
+        
+
+        marker_c0fe6435aef34ad9baebd455962d6f3d.bindPopup(popup_36923b87e7eaefccaaa6115155a982f5)
+        ;
+
+        
+    
+    
+            marker_c0fe6435aef34ad9baebd455962d6f3d.bindTooltip(
+                `<div>
+                     Hess Natur-Textilien AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_380057cc4a4f22b02565c425b40cfa6e = L.marker(
+                [46.2325963, 7.8704203],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_18383d62a775b58d977eaa9f63503482 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d690a6effdaaf33f8dfbd83cb125d1cb = $(`<div id="html_d690a6effdaaf33f8dfbd83cb125d1cb" style="width: 100.0%; height: 100.0%;">Beck Berwert</div>`)[0];
+                popup_18383d62a775b58d977eaa9f63503482.setContent(html_d690a6effdaaf33f8dfbd83cb125d1cb);
+            
+        
+
+        marker_380057cc4a4f22b02565c425b40cfa6e.bindPopup(popup_18383d62a775b58d977eaa9f63503482)
+        ;
+
+        
+    
+    
+            marker_380057cc4a4f22b02565c425b40cfa6e.bindTooltip(
+                `<div>
+                     Beck Berwert
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e2829a43f3d438f69061ed3b99dc3695 = L.marker(
+                [47.1293896, 7.5577607],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_29b2fe1e87ff4f224f3e322b8510293c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e2de79d18add665baca073104a4c2c5 = $(`<div id="html_1e2de79d18add665baca073104a4c2c5" style="width: 100.0%; height: 100.0%;">Gautschi Spezialitäten AG</div>`)[0];
+                popup_29b2fe1e87ff4f224f3e322b8510293c.setContent(html_1e2de79d18add665baca073104a4c2c5);
+            
+        
+
+        marker_e2829a43f3d438f69061ed3b99dc3695.bindPopup(popup_29b2fe1e87ff4f224f3e322b8510293c)
+        ;
+
+        
+    
+    
+            marker_e2829a43f3d438f69061ed3b99dc3695.bindTooltip(
+                `<div>
+                     Gautschi Spezialitäten AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ae84a0302a796591bfdfb1319c7ebe8f = L.marker(
+                [46.3820585, 6.2402791],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_d700e9d20f58b41d66b7247cf4f60ef2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0969d78eb01ce0fb63ca26eb06cea2bc = $(`<div id="html_0969d78eb01ce0fb63ca26eb06cea2bc" style="width: 100.0%; height: 100.0%;">Manor SA Nyon</div>`)[0];
+                popup_d700e9d20f58b41d66b7247cf4f60ef2.setContent(html_0969d78eb01ce0fb63ca26eb06cea2bc);
+            
+        
+
+        marker_ae84a0302a796591bfdfb1319c7ebe8f.bindPopup(popup_d700e9d20f58b41d66b7247cf4f60ef2)
+        ;
+
+        
+    
+    
+            marker_ae84a0302a796591bfdfb1319c7ebe8f.bindTooltip(
+                `<div>
+                     Manor SA Nyon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4ddf56df681b62be0f26f89d00b682a6 = L.marker(
+                [47.425618, 9.3762397],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_984f0af348a0e4ea196bdaa086df3c92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85ce1d7604be09de6cdc43409bdf08d3 = $(`<div id="html_85ce1d7604be09de6cdc43409bdf08d3" style="width: 100.0%; height: 100.0%;">Manor AG St. Gallen</div>`)[0];
+                popup_984f0af348a0e4ea196bdaa086df3c92.setContent(html_85ce1d7604be09de6cdc43409bdf08d3);
+            
+        
+
+        marker_4ddf56df681b62be0f26f89d00b682a6.bindPopup(popup_984f0af348a0e4ea196bdaa086df3c92)
+        ;
+
+        
+    
+    
+            marker_4ddf56df681b62be0f26f89d00b682a6.bindTooltip(
+                `<div>
+                     Manor AG St. Gallen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5b1346119ee179f400674e61ad89831b = L.marker(
+                [47.5136942, 7.5527853],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_0645bc799ee421d40ae3d8d438abe493 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3dd1781cfc742b3b0f70c1ddfd290274 = $(`<div id="html_3dd1781cfc742b3b0f70c1ddfd290274" style="width: 100.0%; height: 100.0%;">fish4future</div>`)[0];
+                popup_0645bc799ee421d40ae3d8d438abe493.setContent(html_3dd1781cfc742b3b0f70c1ddfd290274);
+            
+        
+
+        marker_5b1346119ee179f400674e61ad89831b.bindPopup(popup_0645bc799ee421d40ae3d8d438abe493)
+        ;
+
+        
+    
+    
+            marker_5b1346119ee179f400674e61ad89831b.bindTooltip(
+                `<div>
+                     fish4future
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_149e94d1227e59fca0551504a2e6a369 = L.marker(
+                [46.8185761, 6.977471],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_dc3bdab7fe8c2c29ab228cb425c66920 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bef746e1e7b567aba6cc86970c0701c = $(`<div id="html_7bef746e1e7b567aba6cc86970c0701c" style="width: 100.0%; height: 100.0%;">Bossy Céréales SA</div>`)[0];
+                popup_dc3bdab7fe8c2c29ab228cb425c66920.setContent(html_7bef746e1e7b567aba6cc86970c0701c);
+            
+        
+
+        marker_149e94d1227e59fca0551504a2e6a369.bindPopup(popup_dc3bdab7fe8c2c29ab228cb425c66920)
+        ;
+
+        
+    
+    
+            marker_149e94d1227e59fca0551504a2e6a369.bindTooltip(
+                `<div>
+                     Bossy Céréales SA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6ca30fb53d016f81edffbe6b1cc32e12 = L.marker(
+                [47.4421715, 9.532089],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_34cd7cafc9c46575148f6fe557843953 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_632a25f3da052f82e75835084884b77d = $(`<div id="html_632a25f3da052f82e75835084884b77d" style="width: 100.0%; height: 100.0%;">BIONAT</div>`)[0];
+                popup_34cd7cafc9c46575148f6fe557843953.setContent(html_632a25f3da052f82e75835084884b77d);
+            
+        
+
+        marker_6ca30fb53d016f81edffbe6b1cc32e12.bindPopup(popup_34cd7cafc9c46575148f6fe557843953)
+        ;
+
+        
+    
+    
+            marker_6ca30fb53d016f81edffbe6b1cc32e12.bindTooltip(
+                `<div>
+                     BIONAT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ffd6d354cdde9752e7d9a5bf342cf9b7 = L.marker(
+                [46.9074667, 7.6380928],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_c83ba124b36b4008a0103345ec6d78cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62ac6ae9a64d98ac271ea57d314bfaea = $(`<div id="html_62ac6ae9a64d98ac271ea57d314bfaea" style="width: 100.0%; height: 100.0%;">Seminar-/Kulturhotel Möschberg</div>`)[0];
+                popup_c83ba124b36b4008a0103345ec6d78cf.setContent(html_62ac6ae9a64d98ac271ea57d314bfaea);
+            
+        
+
+        marker_ffd6d354cdde9752e7d9a5bf342cf9b7.bindPopup(popup_c83ba124b36b4008a0103345ec6d78cf)
+        ;
+
+        
+    
+    
+            marker_ffd6d354cdde9752e7d9a5bf342cf9b7.bindTooltip(
+                `<div>
+                     Seminar-/Kulturhotel Möschberg
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_82724274e6ce7add39f91d28c73397dc = L.marker(
+                [47.5581077, 7.5878261],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_48d94267c218b866958626bbdd9fe78a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe27dd417e753fddc1413391c3ab0dc3 = $(`<div id="html_fe27dd417e753fddc1413391c3ab0dc3" style="width: 100.0%; height: 100.0%;">Kaiser IIE AG</div>`)[0];
+                popup_48d94267c218b866958626bbdd9fe78a.setContent(html_fe27dd417e753fddc1413391c3ab0dc3);
+            
+        
+
+        marker_82724274e6ce7add39f91d28c73397dc.bindPopup(popup_48d94267c218b866958626bbdd9fe78a)
+        ;
+
+        
+    
+    
+            marker_82724274e6ce7add39f91d28c73397dc.bindTooltip(
+                `<div>
+                     Kaiser IIE AG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_06156e135c7351333dc112c63dac28b9 = L.marker(
+                [47.3744489, 8.5410422],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_e5a00f4d75d5f62bc5591fe3ea524c72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f811953f887f9b9f42a9ceab050cd1e9 = $(`<div id="html_f811953f887f9b9f42a9ceab050cd1e9" style="width: 100.0%; height: 100.0%;">Chornlade Idaplatz</div>`)[0];
+                popup_e5a00f4d75d5f62bc5591fe3ea524c72.setContent(html_f811953f887f9b9f42a9ceab050cd1e9);
+            
+        
+
+        marker_06156e135c7351333dc112c63dac28b9.bindPopup(popup_e5a00f4d75d5f62bc5591fe3ea524c72)
+        ;
+
+        
+    
+    
+            marker_06156e135c7351333dc112c63dac28b9.bindTooltip(
+                `<div>
+                     Chornlade Idaplatz
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f91117f859eea638a7bf5f2fe03ec19b = L.marker(
+                [47.1402077, 7.2439029],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_846fec61edc387f6e2d6c7d3cb85683e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a44e88b71f981f1758eb86296b2994ba = $(`<div id="html_a44e88b71f981f1758eb86296b2994ba" style="width: 100.0%; height: 100.0%;">Phönix</div>`)[0];
+                popup_846fec61edc387f6e2d6c7d3cb85683e.setContent(html_a44e88b71f981f1758eb86296b2994ba);
+            
+        
+
+        marker_f91117f859eea638a7bf5f2fe03ec19b.bindPopup(popup_846fec61edc387f6e2d6c7d3cb85683e)
+        ;
+
+        
+    
+    
+            marker_f91117f859eea638a7bf5f2fe03ec19b.bindTooltip(
+                `<div>
+                     Phönix
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a07b0fba4c1631cfd79c1b1759a738f2 = L.marker(
+                [47.3744489, 8.5410422],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_8da3e977c8c3ec99e7fd95a9fcfe74e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67056ab252ec6e655697ced05ffa2122 = $(`<div id="html_67056ab252ec6e655697ced05ffa2122" style="width: 100.0%; height: 100.0%;">BachserMärt Seefeld</div>`)[0];
+                popup_8da3e977c8c3ec99e7fd95a9fcfe74e5.setContent(html_67056ab252ec6e655697ced05ffa2122);
+            
+        
+
+        marker_a07b0fba4c1631cfd79c1b1759a738f2.bindPopup(popup_8da3e977c8c3ec99e7fd95a9fcfe74e5)
+        ;
+
+        
+    
+    
+            marker_a07b0fba4c1631cfd79c1b1759a738f2.bindTooltip(
+                `<div>
+                     BachserMärt Seefeld
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2307279cf23d18726baf701716d27d24 = L.marker(
+                [46.854747, 9.5264904],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_d5d91b4c1b74d261214dece548dbe279 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_809e03db47fae10f9a44cb37a2277163 = $(`<div id="html_809e03db47fae10f9a44cb37a2277163" style="width: 100.0%; height: 100.0%;">Rägawurm</div>`)[0];
+                popup_d5d91b4c1b74d261214dece548dbe279.setContent(html_809e03db47fae10f9a44cb37a2277163);
+            
+        
+
+        marker_2307279cf23d18726baf701716d27d24.bindPopup(popup_d5d91b4c1b74d261214dece548dbe279)
+        ;
+
+        
+    
+    
+            marker_2307279cf23d18726baf701716d27d24.bindTooltip(
+                `<div>
+                     Rägawurm
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fa330114ee7c12fae5f5f0e4548fbbc6 = L.marker(
+                [47.0394266, 7.3778982],
+                {
+}
+            ).addTo(map_2379490534c547cbc11b97a044eed84b);
+        
+    
+        var popup_df42f2b8c8e9c28227076e3947f95a90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e477da65f5d696674c97d59387c8b46a = $(`<div id="html_e477da65f5d696674c97d59387c8b46a" style="width: 100.0%; height: 100.0%;">La Cucina Tee & Gewürze</div>`)[0];
+                popup_df42f2b8c8e9c28227076e3947f95a90.setContent(html_e477da65f5d696674c97d59387c8b46a);
+            
+        
+
+        marker_fa330114ee7c12fae5f5f0e4548fbbc6.bindPopup(popup_df42f2b8c8e9c28227076e3947f95a90)
+        ;
+
+        
+    
+    
+            marker_fa330114ee7c12fae5f5f0e4548fbbc6.bindTooltip(
+                `<div>
+                     La Cucina Tee & Gewürze
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
