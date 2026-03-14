@@ -4,9 +4,16 @@ from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 import time
 import os
+import ssl
+import certifi
 
 def main():
     print("Starting store visualization...")
+    
+    # Fix SSL certificate verification issues (common on macOS / some venv setups)
+    # Ensure Requests/urllib3 use an up-to-date CA bundle.
+    os.environ.setdefault("SSL_CERT_FILE", certifi.where())
+    os.environ.setdefault("REQUESTS_CA_BUNDLE", certifi.where())
     
     # Check if CSV exists
     if not os.path.exists('test.csv'):
@@ -22,7 +29,10 @@ def main():
         return
 
     # Initialize geocoder
-    geolocator = Nominatim(user_agent="my_bionetz_app")
+    geolocator = Nominatim(
+        user_agent="my_bionetz_app",
+        timeout=10,
+    )
     
     # Create a map centered on Switzerland
     m = folium.Map(location=[46.8182, 8.2275], zoom_start=8)
@@ -62,6 +72,9 @@ def main():
                 time.sleep(2)  # Wait longer between retries
             except Exception as e:
                 print(f"Error processing {name}: {e}")
+                if "CERTIFICATE_VERIFY_FAILED" in str(e):
+                    print("SSL cert verification failed. Ensure certifi is installed and CA bundle is configured.")
+                    print("Try: pip install -U certifi  (then re-run)")
                 break
 
     # Save the map
