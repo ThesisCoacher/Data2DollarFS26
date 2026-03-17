@@ -1,0 +1,258 @@
+{
+  "Openair_St__Gallen": {
+    "Zeitraum": {
+      "von": "25.06.2026",
+      "bis": "28.06.2026"
+    },
+    "Unterkuenfte": {
+      "Unterkunft Name 1": {
+        "Name": "Möbliertes Studio mit Garten",
+        "Preis pro Nacht (CHF)": 98.67
+      },
+      "Unterkunft Name 2": {
+        "Name": "Zentrales, gemütliches Zuhause in der Nähe von HSG/FH/Olma-Gegend/Krankenhaus",
+        "Preis pro Nacht (CHF)": 100.33
+      },
+      "Unterkunft Name 3": {
+        "Name": "Möblierte stilvolle Wohnung nahe HSG Universität",
+        "Preis pro Nacht (CHF)": 183.33
+      },
+      "Unterkunft Name 4": {
+        "Name": "Das Haus mit dem Schwein",
+        "Preis pro Nacht (CHF)": 66.0
+      },
+      "Unterkunft Name 5": {
+        "Name": "Heimelige Wohnung in Goldach",
+        "Preis pro Nacht (CHF)": 95.33
+      },
+      "Unterkunft Name 6": {
+        "Name": "Happystay Zentrum Busticket 4free",
+        "Preis pro Nacht (CHF)": 106.0
+      },
+      "Unterkunft Name 7": {
+        "Name": "Schönes Zimmer in der Nähe von HSG",
+        "Preis pro Nacht (CHF)": 74.0
+      },
+      "Unterkunft Name 8": {
+        "Name": "Stadtstudio",
+        "Preis pro Nacht (CHF)": 135.33
+      },
+      "Unterkunft Name 9": {
+        "Name": "Komfortables Doppelzimmer – zentral",
+        "Preis pro Nacht (CHF)": 44.0
+      },
+      "Unterkunft Name 10": {
+        "Name": "Einfamilienhaus, freistehend, 2 SZ, Nähe Zentrum",
+        "Preis pro Nacht (CHF)": 236.67
+      },
+      "Unterkunft Name 11": {
+        "Name": "1er Zimmer ruhig 5 Min. bis ÖV",
+        "Preis pro Nacht (CHF)": 67.0
+      },
+      "Unterkunft Name 12": {
+        "Name": "Ganze Wohnung mitten in der Altstadt von Arbon",
+        "Preis pro Nacht (CHF)": 94.33
+      },
+      "Unterkunft Name 13": {
+        "Name": "Attika 2.5 Zimmer möbliert Nähe HSG Universität",
+        "Preis pro Nacht (CHF)": 190.33
+      },
+      "Unterkunft Name 14": {
+        "Name": "Es können zwei Personen darin schlafen",
+        "Preis pro Nacht (CHF)": 46.33
+      },
+      "Unterkunft Name 15": {
+        "Name": "Bella Vista",
+        "Preis pro Nacht (CHF)": 154.67
+      },
+      "Unterkunft Name 16": {
+        "Name": "Spezielle Wohnung in Goldach",
+        "Preis pro Nacht (CHF)": 99.0
+      },
+      "Unterkunft Name 17": {
+        "Name": "Appenzellerhaus mit viel Charme am Fusse des Kaien",
+        "Preis pro Nacht (CHF)": 52.0
+      },
+      "Unterkunft Name 18": {
+        "Name": "Gemütliche Unterkunft am ruhigen Stadtrand",
+        "Preis pro Nacht (CHF)": 112.0
+      },
+      "Unterkunft Name 19": {
+        "Name": "Gelb, gelb, gelb, gelb!",
+        "Preis pro Nacht (CHF)": 205.33
+      },
+      "Unterkunft Name 20": {
+        "Name": "Studio-Apartment im Zentrum Rorschach",
+        "Preis pro Nacht (CHF)": 112.33
+      },
+      "Unterkunft Name 21": {
+        "Name": "Schlossapartment",
+        "Preis pro Nacht (CHF)": 110.0
+      },
+      "Unterkunft Name 22": {
+        "Name": "Moderne Wohnung nahe Bodensee – Goldach",
+        "Preis pro Nacht (CHF)": 97.0
+      },
+      "Unterkunft Name 23": {
+        "Name": "Elegante 3 Zimmer Residenz",
+        "Preis pro Nacht (CHF)": 187.33
+      },
+      "Unterkunft Name 24": {
+        "Name": "Genieße den Seeblick von der Dachterrasse",
+        "Preis pro Nacht (CHF)": 243.67
+      },
+      "Unterkunft Name 25": {
+        "Name": "Zwei helle Zimmer, Küche und Bad",
+        "Preis pro Nacht (CHF)": 98.0
+      },
+      "Unterkunft Name 26": {
+        "Name": "Gästezimmer mit Dusche/WC",
+        "Preis pro Nacht (CHF)": 53.0
+      },
+      "Unterkunft Name 27": {
+        "Name": "Hotel Elite 24-Stunden-Self-Check-in",
+        "Preis pro Nacht (CHF)": 82.0
+      },
+      "Unterkunft Name 28": {
+        "Name": "Appenzeller Hausteil mit Garten",
+        "Preis pro Nacht (CHF)": 149.67
+      },
+      "Unterkunft Name 29": {
+        "Name": "TouchBed | Superior-Studio",
+        "Preis pro Nacht (CHF)": 239.0
+      },
+      "Unterkunft Name 30": {
+        "Name": "Ruhige Lage am Bodensee",
+        "Preis pro Nacht (CHF)": 233.33
+      }
+    }
+  },
+  "Olma": {
+    "Zeitraum": {
+      "von": "08.10.2026",
+      "bis": "18.10.2026"
+    },
+    "Unterkuenfte": {
+      "Unterkunft Name 1": {
+        "Name": "Studio in ruhigem Quartier/UG",
+        "Preis pro Nacht (CHF)": 98.5
+      },
+      "Unterkunft Name 2": {
+        "Name": "Möbliertes Studio mit Garten",
+        "Preis pro Nacht (CHF)": 68.6
+      },
+      "Unterkunft Name 3": {
+        "Name": "Gemütliche Wohnung",
+        "Preis pro Nacht (CHF)": 77.9
+      },
+      "Unterkunft Name 4": {
+        "Name": "Heimelige Wohnung in Goldach",
+        "Preis pro Nacht (CHF)": 67.4
+      },
+      "Unterkunft Name 5": {
+        "Name": "St. Gallen zentral, ruhig, bei Badeweihern und Wald",
+        "Preis pro Nacht (CHF)": 101.8
+      },
+      "Unterkunft Name 6": {
+        "Name": "Das Haus mit dem Schwein",
+        "Preis pro Nacht (CHF)": 43.6
+      },
+      "Unterkunft Name 7": {
+        "Name": "Charmante Wohnung auf dem Lande und doch zentral",
+        "Preis pro Nacht (CHF)": 87.8
+      },
+      "Unterkunft Name 8": {
+        "Name": "Studio mit Panoramaaussicht",
+        "Preis pro Nacht (CHF)": 60.0
+      },
+      "Unterkunft Name 9": {
+        "Name": "Ganze Wohnung mitten in der Altstadt von Arbon",
+        "Preis pro Nacht (CHF)": 61.2
+      },
+      "Unterkunft Name 10": {
+        "Name": "Bella Vista",
+        "Preis pro Nacht (CHF)": 100.8
+      },
+      "Unterkunft Name 11": {
+        "Name": "Zur Geduld (direkt am Bahnhof)",
+        "Preis pro Nacht (CHF)": 70.6
+      },
+      "Unterkunft Name 12": {
+        "Name": "St. Gallen Zimmer Nähe Uni/Stadtzentrum Jugendstil",
+        "Preis pro Nacht (CHF)": 77.3
+      },
+      "Unterkunft Name 13": {
+        "Name": "4 Zimmer mit Charme an bester Lage",
+        "Preis pro Nacht (CHF)": 130.6
+      },
+      "Unterkunft Name 14": {
+        "Name": "2.5 Zimmer Dachwohnung mit Gartensitzplatz",
+        "Preis pro Nacht (CHF)": 107.8
+      },
+      "Unterkunft Name 15": {
+        "Name": "Schönes Zimmer in der Nähe von HSG",
+        "Preis pro Nacht (CHF)": 60.0
+      },
+      "Unterkunft Name 16": {
+        "Name": "1-Zimmer-Wohnung, voll möbliert, modern, zentral",
+        "Preis pro Nacht (CHF)": 97.2
+      },
+      "Unterkunft Name 17": {
+        "Name": "Haus am Bodensee mit grossem Garten",
+        "Preis pro Nacht (CHF)": 150.5
+      },
+      "Unterkunft Name 18": {
+        "Name": "Bijoux Ferienwohnung auf Bauernhof im Wald",
+        "Preis pro Nacht (CHF)": 91.6
+      },
+      "Unterkunft Name 19": {
+        "Name": "Studio Trailalps: in der Nähe von St. Gallen",
+        "Preis pro Nacht (CHF)": 65.7
+      },
+      "Unterkunft Name 20": {
+        "Name": "Zentrales, gemütliches Zuhause in der Nähe von HSG/FH/Olma-Gegend",
+        "Preis pro Nacht (CHF)": 84.2
+      },
+      "Unterkunft Name 21": {
+        "Name": "Ferienwohnung Narnia",
+        "Preis pro Nacht (CHF)": 88.7
+      },
+      "Unterkunft Name 22": {
+        "Name": "Studio mit Charme und Aussicht",
+        "Preis pro Nacht (CHF)": 60.0
+      },
+      "Unterkunft Name 23": {
+        "Name": "Studio im UG an ruhiger Lage",
+        "Preis pro Nacht (CHF)": 77.3
+      },
+      "Unterkunft Name 24": {
+        "Name": "1er Zimmer ruhig 5 Min. bis ÖV",
+        "Preis pro Nacht (CHF)": 60.2
+      },
+      "Unterkunft Name 25": {
+        "Name": "2. Modernes Apartment 2 Min vom Bahnhof",
+        "Preis pro Nacht (CHF)": 151.0
+      },
+      "Unterkunft Name 26": {
+        "Name": "2 Zimmer mit Balkon, Netflix und Mietfahrräder",
+        "Preis pro Nacht (CHF)": 104.6
+      },
+      "Unterkunft Name 27": {
+        "Name": "Historischer Charme in der Altstadt – Superior-DZ",
+        "Preis pro Nacht (CHF)": 117.5
+      },
+      "Unterkunft Name 28": {
+        "Name": "Kernsanierte Wohnung nähe Bahnhof und Zentrum",
+        "Preis pro Nacht (CHF)": 115.0
+      },
+      "Unterkunft Name 29": {
+        "Name": "1 Zimmerwohnung ohne Küche mitten im Zentrum",
+        "Preis pro Nacht (CHF)": 74.3
+      },
+      "Unterkunft Name 30": {
+        "Name": "BLIV: Grosszügiges Altbaujuwel im Zentrum",
+        "Preis pro Nacht (CHF)": 342.1
+      }
+    }
+  }
+}
