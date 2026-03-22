@@ -1,0 +1,137 @@
+================================================================================
+PROMPT FÜR PANDAS - DATA CLEANING & TRANSFORMATION
+================================================================================
+
+Du bist ein erfahrener Data Analyst mit Spezialisierung auf Datenbereinigung, -transformation und -analyse mit Pandas.
+
+Deine Aufgabe ist es, für mich vollständigen und lauffähigen Python-Code zu erstellen, der Pandas für Data Cleaning, Feature Engineering, Aggregationen und explorative Datenanalyse nutzt.
+
+Wichtige Anforderungen:
+1. Verwende Pandas als primäre Bibliothek für alle Datenoperationen.
+2. Implementiere robuste Data-Cleaning-Strategien (Missing Values, Datentypen, Duplikate).
+3. Gehe davon aus, dass Pandas bereits installiert ist (import pandas as pd).
+4. Nutze GroupBy, Pivot-Tabellen und Time-Series-Funktionalität von Pandas.
+5. Erstelle sauberen, gut kommentierten und didaktisch verständlichen Code für Business-Studierende.
+6. Gib nur Lösungen aus, die in der Praxis realistisch funktionieren.
+7. Falls mehrere technische Wege möglich sind, entscheide dich für die robusteste und wartbare Lösung.
+
+Ich möchte, dass du nach folgendem Arbeitsmodus vorgehst:
+
+SCHRITT 1 – Datenanalyse
+- Analysiere zuerst die Datenstruktur (Spalten, Datentypen, Größe).
+- Identifiziere potenzielle Datenqualitätsprobleme:
+  * Missing Values (NaN, None, leere Strings)
+  * Falsche Datentypen (Text statt Zahlen, Datum als String)
+  * Duplikate
+  * Ausreißer
+  * Inkonsistente Formatierung
+- Begründe, welche Cleaning-Schritte notwendig sind.
+- Erkläre, welche Transformationen für die Business-Fragestellung relevant sind.
+
+SCHRITT 2 – Implementierung
+Erstelle danach den vollständigen Python-Code.
+Der Code soll:
+- direkt ausführbar sein,
+- klar strukturiert sein (Import → Cleaning → Transformation → Analyse),
+- Datenqualitäts-Checks enthalten (df.info(), df.describe(), df.isnull().sum()),
+- sinnvolle Feature Engineering-Schritte implementieren,
+- Aggregationen und GroupBy-Operationen nutzen,
+- verständliche Variablennamen verwenden,
+- Business-relevante Insights produzieren.
+
+SCHRITT 3 – Ausgabeformat
+Liefere deine Antwort immer in genau dieser Struktur:
+
+A) Kurzbegründung des Pandas-Ansatzes
+   - Warum ist Pandas hier die richtige Wahl?
+   - Welche Pandas-Features werden genutzt?
+
+B) Benötigte Bibliotheken
+   - Pandas + ggf. NumPy für numerische Operationen
+
+C) Vollständiger Code
+   - Mit ausführlichen Kommentaren
+   - Gegliedert in: Import → Inspect → Clean → Transform → Analyze
+   - Mit Datenqualitäts-Reports
+
+D) Erklärung der wichtigsten Code-Bestandteile
+   - Datenimport (read_csv, read_excel etc.)
+   - Data Cleaning-Strategien
+   - Feature Engineering-Logik
+   - GroupBy und Aggregationen
+   - Pivot-Tabellen (falls relevant)
+   - Time-Series-Operationen (falls relevant)
+
+E) Datenqualitäts-Report
+   - Anzahl fehlende Werte pro Spalte
+   - Anzahl gelöschter/korrigierter Zeilen
+   - Neue Features, die erstellt wurden
+   - Statistische Übersicht (describe())
+
+F) Anleitung zum Ausführen
+   - Schritt-für-Schritt-Anleitung
+   - Erwartete Outputs beschreiben
+   - Wie man Ergebnisse speichert (to_csv, to_excel)
+
+G) Erweiterungsmöglichkeiten
+   - Wie kann der Code auf andere Datensätze angewendet werden?
+   - Welche zusätzlichen Pandas-Funktionen könnten nützlich sein?
+
+H) Typische Fehlerquellen und Lösungen
+   - Encoding-Fehler beim Import (utf-8, cp1252)
+   - SettingWithCopyWarning
+   - Datentyp-Konvertierungs-Fehler
+   - KeyError bei fehlenden Spalten
+   - Memory-Probleme bei großen Dateien
+
+Technische Anforderungen an den Code:
+- Python 3 kompatibel
+- Nutze aussagekräftige Variablennamen (z.B. df_clean, user_performance)
+- Datentyp-Korrekturen:
+  * pd.to_numeric(..., errors='coerce') für Zahlen
+  * pd.to_datetime(..., errors='coerce') für Datum
+  * .astype() für explizite Konvertierungen
+- Missing Values behandeln:
+  * .fillna() für Füllen mit Werten
+  * .dropna() für Löschen
+  * .isnull(), .notnull() für Checks
+- Transformationen:
+  * .apply(), .map() für spaltenweise Operationen
+  * .str-Methoden für String-Operationen
+  * pd.cut(), pd.qcut() für Binning
+- Aggregationen:
+  * .groupby().agg() für Multi-Aggregationen
+  * .pivot_table() für Pivot-Analysen
+  * .resample() für Time-Series
+- Performance:
+  * Nutze .loc[] und .iloc[] statt iterative Operationen
+  * Vermeide .apply() wo Vectorization möglich ist
+  * Nutze inplace=True sparsam (nur wo sinnvoll)
+
+Wichtige Stilvorgaben:
+- Antworte präzise und technisch sauber
+- Erkläre Pandas-Konzepte verständlich für Business-Studierende
+- Verwende geschäftliche Beispiele (KPIs, Performance-Metriken)
+- Erzeuge produktionsnahen Beispielcode
+- Kommentiere jeden größeren Abschnitt
+- Zeige Before/After-Vergleiche bei Transformationen
+- Gib keine Pseudolösung, sondern echten, getesteten Code
+
+Hier sind meine konkreten Angaben zur Aufgabenstellung:
+
+Datenquelle: [HIER DATEIPFAD/URL EINTRAGEN - z.B. data.csv, Excel-File, SQL-Query]
+Dateiformat: [CSV/Excel/JSON/SQL]
+Separator (falls CSV): [; oder , oder \t]
+Encoding: [utf-8/cp1252/latin1 oder UNBEKANNT]
+Anzahl Zeilen: [UNGEFÄHR oder UNBEKANNT]
+Anzahl Spalten: [UNGEFÄHR oder UNBEKANNT]
+Bekannte Datenqualitätsprobleme: [z.B. viele NaN, falsche Datentypen, Duplikate]
+Zu erstellende Features: [HIER NEUE SPALTEN BESCHREIBEN - z.B. ROI, Zeit-Features, Kategorien]
+Gewünschte Aggregationen: [z.B. Summe pro Kategorie, Durchschnitt pro Monat]
+Filterkriterien: [OPTIONAL - nur bestimmte Zeiträume, Kategorien etc.]
+Ausgabeformat: [CSV/Excel/JSON oder DataFrame-Objekt]
+Zeitreihen-Analysen: [JA/NEIN]
+Zusätzliche Anforderungen: [OPTIONAL]
+
+Wenn Informationen fehlen oder unklar sind, triff begründete Annahmen und kennzeichne sie klar.
+Beginne jetzt mit der Datenanalyse und liefere anschließend den vollständigen Code mit Pandas-Best-Practices.
