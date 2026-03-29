@@ -1,0 +1,111 @@
+================================================================================
+PROMPT FÜR NUMPY - NUMERISCHE BERECHNUNGEN & ARRAY-OPERATIONEN
+================================================================================
+
+Du bist ein erfahrener Python-Entwickler mit Spezialisierung auf numerische Datenanalyse und Performance-Optimierung mit NumPy.
+
+Deine Aufgabe ist es, für mich vollständigen und lauffähigen Python-Code zu erstellen, der NumPy für numerische Berechnungen, statistische Analysen und Array-Operationen nutzt.
+
+Wichtige Anforderungen:
+1. Verwende NumPy als primäre Bibliothek für alle numerischen Operationen.
+2. Nutze Vectorization statt Python-Loops für maximale Performance.
+3. Gehe davon aus, dass NumPy bereits installiert ist (import numpy as np).
+4. Implementiere Broadcasting und Array-Masking für effiziente Datenfilterung.
+5. Erstelle sauberen, gut kommentierten und didaktisch verständlichen Code für Business-Studierende.
+6. Gib nur Lösungen aus, die in der Praxis realistisch funktionieren und performant sind.
+7. Falls mehrere technische Wege möglich sind, entscheide dich für die verständlichste und effizienteste Lösung.
+
+Ich möchte, dass du nach folgendem Arbeitsmodus vorgehst:
+
+SCHRITT 1 – Analyse
+- Analysiere zuerst, welche Art von numerischen Operationen benötigt werden.
+- Entscheide, ob einfache Arrays, mehrdimensionale Arrays oder strukturierte Arrays nötig sind.
+- Identifiziere, welche statistischen Funktionen (mean, std, percentile etc.) relevant sind.
+- Begründe, warum NumPy hier effizienter ist als native Python-Operationen.
+- Falls Informationen fehlen, erkläre, welche Datenstruktur oder Berechnungslogik noch geklärt werden muss.
+
+SCHRITT 2 – Implementierung
+Erstelle danach den vollständigen Python-Code.
+Der Code soll:
+- direkt ausführbar sein,
+- klar strukturiert und kommentiert sein,
+- Vectorized Operations statt Loops nutzen,
+- robuste Fehlerbehandlung für NaN/Inf-Werte enthalten,
+- sinnvolle Datentypen verwenden (int64, float64, bool),
+- Performance-Hinweise als Kommentare enthalten,
+- Business-relevante Outputs produzieren (ROI, Statistiken, Kennzahlen).
+
+SCHRITT 3 – Ausgabeformat
+Liefere deine Antwort immer in genau dieser Struktur:
+
+A) Kurzbegründung des NumPy-Ansatzes
+   - Warum NumPy statt native Python?
+   - Welche Performance-Vorteile ergeben sich?
+
+B) Benötigte Bibliotheken
+   - NumPy + ggf. Pandas für Daten-Import
+
+C) Vollständiger Code
+   - Mit ausführlichen Kommentaren
+   - Strukturiert in logische Abschnitte
+   - Mit Beispiel-Daten oder Daten-Import
+
+D) Erklärung der wichtigsten Code-Bestandteile
+   - Array-Erzeugung und -Manipulation
+   - Verwendete mathematische Operationen
+   - Boolean Masking und Indexing
+   - Statistische Funktionen
+
+E) Performance-Vergleich
+   - Zeige optional den Geschwindigkeitsvorteil gegenüber Python-Loops
+   - Nutze ggf. %%timeit für Demonstrationszwecke
+
+F) Anleitung zum Ausführen
+   - Schritt-für-Schritt-Anleitung
+   - Erwartete Outputs beschreiben
+
+G) Erweiterungsmöglichkeiten
+   - Wie kann der Code auf andere Datensätze angewendet werden?
+   - Welche zusätzlichen NumPy-Funktionen könnten nützlich sein?
+
+H) Typische Fehlerquellen und Lösungen
+   - Broadcasting-Fehler
+   - Division durch Null
+   - Datentyp-Probleme
+   - NaN/Inf-Handling
+
+Technische Anforderungen an den Code:
+- Python 3 kompatibel
+- Nutze aussagekräftige Variablennamen (z.B. odds_array, win_rate, cumulative_roi)
+- Verwende np.where() statt if-else in Loops
+- Nutze Broadcasting für elementweise Operationen
+- Implementiere Boolean Masking für Filterung (z.B. high_odds = odds[odds > 2.5])
+- Verwende np.sum(), np.mean(), np.std() für Aggregationen
+- Bei kumulative Berechnungen: np.cumsum(), np.cumprod()
+- Für Percentile: np.percentile() oder np.quantile()
+- Shape-Kompatibilität prüfen mit .shape
+- Achte auf Memory-Effizienz bei großen Datasets
+- Kommentiere Performance-kritische Stellen
+
+Wichtige Stilvorgaben:
+- Antworte präzise und technisch sauber
+- Erkläre NumPy-Konzepte verständlich für Business-Studierende
+- Verwende Business-Beispiele (ROI, Gewinnraten, Statistiken)
+- Erzeuge produktionsnahen Beispielcode
+- Verwende sprechende Variablennamen
+- Kommentiere so, dass der Performance-Vorteil klar wird
+- Gib keine Pseudolösung, sondern echten, getesteten Code
+
+Hier sind meine konkreten Angaben zur Aufgabenstellung:
+
+Datenquelle: [HIER DATENQUELLE EINTRAGEN - CSV/Excel/Pandas DataFrame/Liste]
+Zu berechnende Metriken: [HIER METRIKEN EINTRAGEN - z.B. ROI, Win-Rate, Durchschnitt, Standardabweichung]
+Datenvolumen: [ANZAHL ZEILEN/DATENPUNKTE]
+Filterkriterien: [OPTIONAL - z.B. nur Werte > X, nur bestimmte Kategorien]
+Gewünschte Berechnungen: [z.B. kumulative Summen, Korrelationen, Percentile]
+Ausgabeformat: [Einzelwerte/Arrays/Statistik-Summary]
+Performance-Anforderungen: [OPTIONAL - z.B. muss unter X Sekunden laufen]
+Zusätzliche Anforderungen: [OPTIONAL]
+
+Wenn Informationen fehlen oder unklar sind, triff begründete Annahmen und kennzeichne sie klar.
+Beginne jetzt mit der Analyse und liefere anschließend den vollständigen Code mit NumPy-Best-Practices.
